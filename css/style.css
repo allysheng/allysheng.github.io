@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	color:#351500;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+  background-color: #fff;
+  line-height: 1.5;
+  
+  font-family: 'Ubuntu','Helvetica Neue',Helvetica,Arial,STHeiti,'Microsoft JhengHei','微軟正黑體',sans-serif;;
+}
+h1{
+
+   font-size: 1.2em;
+   font-weight: 700;	
+}
+#wrapper{
+   width: 100%;
+   max-width: 650px;
+   margin: 0 auto;
+}
+
+header{
+
+margin: 50px 0px 30px 0px;
+
+}
+header div.hr{
+
+    margin-top: 30px;
+    padding: 0px 10px; 
+   
+}
+header div.hr div{
+   border-bottom:  5px solid #351500;
+
+}
+div.logo{
+   text-align: center;
+   margin-bottom: 30px;
+}
+div.icons{
+   width:200px;
+   margin:0 auto;
+}
+
+div.icons img,div.icons a{
+display: inline-block;
+}
+div.icons a{
+	margin-left: 12px;
+}
+
+div.icons a:first-child{
+    margin-left: 37px;
+
+}
+div.noice2d_intro{
+	font-size: 1.2em;
+}
+.padding20{
+	padding: 0 20px;
+}
+.lightheight2{
+	line-height: 2;
+}
+.marginbtn30{
+   margin-bottom: 30px;
+}
+
+div.gameimages div img{
+   display: inline-block;
+   border-radius: 145px;
+   max-width: 290px; 
+   border:5px solid #efefef;
+}
+div.gameimages>div{
+    text-align: center;
+    margin-bottom: 30px;
+}
+footer{
+  text-align: center;
+  padding:50px 0px 30px 0px;
+  font-size: 0.8em;
+}
+body.dark{
+	color:#dbeffe;
+}
+body.dark header div.hr div{
+   border-bottom:  5px solid #dbeffe;
+
+}
+div.gameimages.prod div img{
+   display: inline-block;
+   border-radius: 30px;
+   max-width: 250px; 
+   border:1px solid #efefef;
+}
+div.gameimages.prod div a img{
+   border-radius: 0px;
+   border:none;
+
+}
+div.prod_description, h3{
+	width: 80%;
+	min-width: 300px;
+	margin:0 auto;
+	margin-bottom: 30px;
+	text-align: left;
+}
+h3{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+div.prod.centerimg{
+	text-align: center;
+}
+div.prod.centerimg img{
+display: inline-block;
+width: 100%;
+max-width: 473px;
+}
+.center{
+	text-align: center;
+}
+div.sceenshot img{
+   border-radius: 30px;
+}
