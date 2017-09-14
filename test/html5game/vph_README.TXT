@@ -1,8 +1,7 @@
 Google Analytics Extension
 
 IMPORTANT NOTE:
-Please replace the function called device_get_id(), as I cannot bundle someone else's extension. You should find a better way to generate device ID's. 
-Please look on the YYG marketplace for DeviceID for Android and iOS to replace this function. 
+Please replace the function called device_get_id(), as I cannot bundle someone else's extension. You should find a better way to generate device ID's. Please look on the YYG marketplace for DeviceID for Android and iOS to replace this function. 
 
 Functions:
 
