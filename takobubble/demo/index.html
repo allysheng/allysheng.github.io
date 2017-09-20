@@ -13,10 +13,9 @@
         <title>TAKO BUBBLE - 塔可泡泡</title>
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
         <script type="text/javascript">
-          head.ready(document, function() {
-            var iframe = document.getElementById('myiframe');
-            var h = window.innerHeight;
-            h = (h > 448)? h : 448;
+          var resizeGame = function(iframe){
+              var h = window.innerHeight;
+              h = (h > 448)? h : 448;
             
              if(head.mobile){
                  var h = window.innerHeight;
@@ -30,8 +29,15 @@
                  var w  = window.innerHeight*(320/480);
                  w = (w > 320 )? w :320;
                  iframe.width = w;
-
              }
+          };
+
+          head.ready(document, function() {
+             var iframe = document.getElementById('myiframe');
+             resizeGame(iframe);
+             window.onresize = function(event) {
+               resizeGame(iframe);
+             };
              iframe.src = "gameindex.html";
           });
 
