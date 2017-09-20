@@ -18,9 +18,12 @@
         <meta name ="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta charset="utf-8"/>
+        <meta name="apple-mobile-web-app-title" content="Tako Bubble">
+        <meta name="apple-mobile-web-app-capable" content="yes">
 
         <!-- Set the title bar of the page -->
-        <title>TAKO BUBBLE - 塔可泡泡</title>
+        <title>Tako Bubble - 塔可泡泡</title>
+        <link rel="apple-touch-icon" href="tako_icon192.png">
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
         <script type="text/javascript">
           var resizeGame = function(iframe){
@@ -54,16 +57,18 @@
         </script>
         <!-- Set the background colour of the document -->
         <style>
-            body {
+            html{
               background: #000;
-              color:#cccccc;
-              margin: 0px;
-              padding: 0px;
-              border: 0px;
               background-image: url('noice2d_loading.gif');
               background-repeat: no-repeat;
               background-attachment: fixed;
               background-position: center center; 
+            }
+            body {
+              background: #000;
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
             }
             #gameframe{
               position: fixed;
