@@ -15,12 +15,21 @@
         <script type="text/javascript">
           head.ready(document, function() {
             var iframe = document.getElementById('myiframe');
+            var h = window.innerHeight;
+            h = (h > 448)? h : 448;
+            
              if(head.mobile){
-                 iframe.height = window.innerHeight;
-                 iframe.width = window.innerWidth;
+                 var h = window.innerHeight;
+                 h = (h > 448)? h : 448;
+                 var w  = window.innerWidth;
+                 w = (w > 320 )? w :320;
+                 iframe.height = h;
+                 iframe.width = w;
              }else{
-                 iframe.height = window.innerHeight;
-                 iframe.width  = window.innerHeight*(320/480);
+                 iframe.height = h;
+                 var w  = window.innerHeight*(320/480);
+                 w = (w > 320 )? w :320;
+                 iframe.width = w;
 
              }
              iframe.src = "gameindex.html";
