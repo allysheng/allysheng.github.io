@@ -48,7 +48,7 @@ table {
 	border-spacing: 0;
 }
 body{
-  background-color: #fff;
+  background-color: #f5f5f5;
   line-height: 1.5;
   
   font-family: 'Ubuntu','Helvetica Neue',Helvetica,Arial,STHeiti,'Microsoft JhengHei','微軟正黑體',sans-serif;;
@@ -58,15 +58,23 @@ h1{
    font-size: 1.2em;
    font-weight: 700;	
 }
+a{
+  text-decoration: none;
+}
 #wrapper{
    width: 100%;
    max-width: 650px;
    margin: 0 auto;
+   background-color: #fff;
+}
+.dark #wrapper{
+   background-color: #000;
 }
 
 header{
 
-margin: 50px 0px 30px 0px;
+margin: 0px 0px 30px 0px;
+padding-top: 30px;
 
 }
 header div.hr{
@@ -76,18 +84,23 @@ header div.hr{
    
 }
 header div.hr div{
-   border-bottom:  5px solid #351500;
+   border-bottom:  1px solid #b3b3b3;
 
 }
 div.logo{
    text-align: center;
-   margin-bottom: 30px;
+   margin-bottom: 10px;
+}
+div.logo img{
+   width: 100px;
 }
 div.icons{
-   width:200px;
+   width:90px;
    margin:0 auto;
 }
-
+div.icons img{
+  width: 24px;
+}
 div.icons img,div.icons a{
 display: inline-block;
 }
@@ -96,7 +109,7 @@ div.icons a{
 }
 
 div.icons a:first-child{
-    margin-left: 37px;
+   
 
 }
 div.noice2d_intro{
@@ -115,7 +128,7 @@ div.noice2d_intro{
 div.gameimages div img{
    display: inline-block;
    border-radius: 150px;
-   max-width: 290px; 
+   max-width: 60%;
    border:5px solid #efefef;
 }
 div.gameimages>div{
@@ -131,7 +144,7 @@ body.dark{
 	color:#dbeffe;
 }
 body.dark header div.hr div{
-   border-bottom:  5px solid #dbeffe;
+   border-bottom:  1px solid #dbeffe;
 
 }
 div.gameimages.prod div img{
@@ -170,3 +183,29 @@ max-width: 473px;
 div.sceenshot img{
    border-radius: 30px;
 }
+div.demobtn{
+    max-width: 80%;
+    margin: 0 auto;
+    background: #fff700;
+    line-height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #000;
+    border: 3px solid #fbff5f;
+    font-size: 22px;
+       
+}
+
+.prod header {
+    margin: 0px 0px 30px 0px;
+    padding-top: 8px;
+}
+.prod div.logo img {
+    width: 50px;
+}
+.prod div.icons {
+  display: none;
+}
+.prod header div.hr {
+    margin-top: 0px;
+} 
