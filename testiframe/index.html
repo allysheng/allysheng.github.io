@@ -11,15 +11,43 @@
 
         <!-- Set the title bar of the page -->
         <title>TAKO BUBBLE - 塔可泡泡</title>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
+        <script type="text/javascript">
+          head.ready(document, function() {
+            var iframe = document.getElementById('myiframe');
+            var h = window.innerHeight;
+            h = (h > 448)? h : 448;
+            
+             if(head.mobile){
+                 var h = window.innerHeight;
+                 h = (h > 448)? h : 448;
+                 var w  = window.innerWidth;
+                 w = (w > 320 )? w :320;
+                 iframe.height = h;
+                 iframe.width = w;
+             }else{
+                 iframe.height = h;
+                 var w  = window.innerHeight*(320/480);
+                 w = (w > 320 )? w :320;
+                 iframe.width = w;
 
+             }
+             iframe.src = "gameindex.html";
+          });
+
+        </script>
         <!-- Set the background colour of the document -->
         <style>
             body {
-              background: ${BACKGROUND_COLOUR};
+              background: #000;
               color:#cccccc;
               margin: 0px;
               padding: 0px;
               border: 0px;
+              background-image: url('noice2d_loading.gif');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-position: center center; 
             }
             #gameframe{
               position: fixed;
@@ -29,9 +57,7 @@
             }
 
            iframe{
-            margin: auto;
-            width: 400px;
-            height: 600px;
+              margin: auto;
            }
         </style>
      
@@ -39,7 +65,7 @@
 
     <body>
         <div id="gameframe">
-          <iframe src="gameindex.html" frameborder="0" scrolling="no"></iframe>
+          <iframe id="myiframe"  frameborder="0" scrolling="no"></iframe>
         </div>
     </body>
 </html>
