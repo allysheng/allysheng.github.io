@@ -27,21 +27,30 @@
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"></script>
         <script type="text/javascript">
           var resizeGame = function(iframe){
+              var baseRatio = 320/480;
+              var baseHeight = 448;
+              var baseWidth = 320;
               var h = window.innerHeight;
-              h = (h > 448)? h : 448;
+              var w  = window.innerWidth;
             
              if(head.mobile){
-                 var h = window.innerHeight;
-                 h = (h > 448)? h : 448;
-                 var w  = window.innerWidth;
-                 w = (w > 320 )? w :320;
+                
+                 h = (h > baseHeight)? h : baseHeight;
+                 w = (w > baseWidth )? w :baseWidth;
                  iframe.height = h;
                  iframe.width = w;
+
              }else{
+                 h = (h > baseHeight)? h : baseHeight;
+                 var extraRatio = (h / baseHeight) - Math.floor((h / baseHeight));
+                 if(extraRatio > 0.5){
+                     h = baseHeight*(Math.floor((h / baseHeight))+0.5)
+                 }
                  iframe.height = h;
-                 var w  = window.innerHeight*(320/480);
-                 w = (w > 320 )? w :320;
+                 var w  = h * baseRatio;
+                 w = (w > baseWidth )? w :320;
                  iframe.width = w;
+
              }
           };
 
