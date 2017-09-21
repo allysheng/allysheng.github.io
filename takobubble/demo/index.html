@@ -42,13 +42,14 @@
 
              }else{
                  h = (h > baseHeight)? h : baseHeight;
-                 var extraRatio = (h / baseHeight) - Math.floor((h / baseHeight));
+                 var scaleSize = Math.floor(h / baseHeight);
+                 var extraRatio = (h / baseHeight) - scaleSize;
                  if(extraRatio > 0.5){
-                     h = baseHeight*(Math.floor((h / baseHeight))+0.5)
+                     h = baseHeight*(scaleSize+0.5)
                  }
                  iframe.height = h;
                  var w  = h * baseRatio;
-                 w = (w > baseWidth )? w :320;
+                 w = (w > baseWidth*scaleSize )? w :baseWidth*scaleSize;
                  iframe.width = w;
 
              }
