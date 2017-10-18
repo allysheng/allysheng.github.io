@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>Tako Bubble</title>
+  <release-date>January 2018</release-date>
+  <website>http://noice2d.com/takobubble</website>
+
+  <!-- Link to request press copy: -->
+  <press-copy-request>https://www.keymailer.co</press-copy-request>
+
+  <platforms>
+    <platform>
+      <name>Web Html5</name>
+      <link>http://noice2d.com/takobubble</link>
+    </platform>
+    <platform>
+      <name>Google Play</name>
+      <link>http://noice2d.com/takobubble</link>
+    </platform>
+    <platform>
+      <name>iOS App Store</name>
+      <link>http://noice2d.com/takobubble</link>
+    </platform>
+  </platforms>
+
+  <prices>
+    <price>
+      <currency>USD</currency>
+      <value>$1.99</value>
+    </price>
+  </prices>
+
+  <description>
+      Tako Bubble is a turn-based puzzler. You play as Tako, a yellow octopus, to crawl through deep-ocean environments, defeat ferocious monsters, pop all the bubbles to get back your precious beetle gems. 
+  </description>
+
+  <!-- Choose between a single block: -->
+  <!--<history></history>-->
+
+  <!-- Or multiple blocks: -->
+  <histories>
+    <history>
+      <header>Web Html5 Preview</header>
+      <text>September 2017</text>
+    </history>
+    <history>
+      <header>Mobile Release</header>
+      <text>January 2018</text>
+    </history>
+  </histories>
+
+  <features>
+    <feature>Turn-based puzzle crawler</feature>
+    <feature>Cartoonish characters; contains only mild cartoon violence (vanishing creatures)</feature>
+    <feature>Freemium model: removable ads, no extra in-app products</feature>
+    <feature>Collectable pixelart beetles; 13 achievements</feature>
+    <feature>Ad-free web playable demo available for html5 browsers including mobile browsers</feature>
+  </features>
+
+  <trailers>
+    <trailer>
+      <name>Web Html5 Preview Trailer</name>
+
+      <!-- Pick one: youtube or vimeo-->
+      <youtube>
+          <!-- Video ID only, not the full URL -->
+          aHkkBK2nWDU
+      </youtube>
+    </trailer>
+  </trailers>
+
+  <!-- You can set your widgets here (optional): -->
+  <!--
+  <awards>
+    <award>
+      <description></description>
+      <info></info>
+    </award>
+  </awards>
+
+  <quotes>
+    <quote>
+      <description></description>
+      <name></name>
+      <website></website>
+      <link></link>
+    </quote>
+  </quotes>
+  -->
+
+  <additionals>
+    <additional>
+      <title>Web Html5 Preview</title>
+      <description>18 levels made specifically for web preview. Mobile version contains more creatures and traps.</description>
+      <link>http://noice2d.com/takobubble/demo</link>
+    </additional>
+  </additionals>
+
+  <credits>
+    <credit>
+      <person>Ally Sheng</person>
+      <role>Art | Game Design | Programming</role>
+
+      <!-- Optional: -->
+      <website>http://twitter.com/allysheng</website>
+  </credit>
+
+    <credit>
+      <person>CH Chiang</person>
+      <role>Assistant Programming</role>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <name>Inquiries</name>
+
+      <!-- Pick one: mail or link -->
+      <mail>info@noice2d.com</mail>
+  </contact>
+
+    <contact>
+      <name>Twitter</name>
+
+      <!-- Pick one: mail or link -->
+      <link>http://twitter.com/noice2d</link>
+  </contact>
+
+    <contact>
+      <name>Facebook</name>
+
+      <!-- Pick one: mail or link -->
+      <link>http://facebook.com/noice2d</link>
+    </contact>
+  </contacts>
+</product>

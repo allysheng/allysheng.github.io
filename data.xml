@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<company>
+  <title>Noice2D</title>
+  <based-in>Taipei, Taiwan</based-in>
+  <founding-date>March 6, 2017</founding-date>
+  <website>http://noice2d.com/index.html</website>
+  <press-contact>
+      <!-- Mail address -->
+      info@noice2d.com
+  </press-contact>
+
+  <!-- Google analytics ID: -->
+  <analytics>UA-106132832-1</analytics>
+
+  <phone>N/A</phone>
+  <address>
+    <line>
+        <!-- Street -->
+        No.82, Sec.3, Yanping N.Rd., Datong Dist.
+    </line>
+    <line>
+        <!-- City -->
+        Taipei City 10376
+    </line>
+    <line>
+        <!-- Country -->
+        Taiwan
+    </line>
+  </address>
+
+  <socials>
+    <social>
+      <name>Twitter @noice2d</name>
+      <link>
+          <!-- URL starting with http or https -->
+          http://twitter.com/noice2d
+      </link>
+    </social>
+    <social>
+      <name>Facebook Page</name>
+      <link>
+          <!-- URL starting with http or https -->
+          http://facebook.com/noice2d
+      </link>
+    </social>
+  </socials>
+
+  <description>
+      Noice2D is Ally Sheng and Chang-hung Chiang, two casual gamers and pixelart lovers.
+  </description>
+
+  <!-- Choose between a single block: -->
+  <history>
+      Founded: March 6, 2017
+  </history>
+
+  <!-- Or multiple blocks: -->
+  <!--
+  <histories>
+    <history>
+      <header></header>
+      <text></text>
+    </history>
+  </histories>
+  -->
+
+  <trailers>
+    <trailer>
+      <name>Tako Bubble: Web Preview</name>
+
+      <!-- Pick one: youtube or vimeo -->
+      <youtube>
+          <!-- Video ID only, not the full URL -->
+          aHkkBK2nWDU
+      </youtube>
+    </trailer>
+  </trailers>
+
+  <!--
+  <awards>
+    <award>
+      <description></description>
+      <info></info>
+    </award>
+  </awards>
+
+  <quotes>
+    <quote>
+      <description></description>
+      <name></name>
+      <website></website>
+      <link></link>
+    </quote>
+  </quotes>
+
+  <additionals>
+    <additional>
+      <title></title>
+      <description></description>
+      <link></link>
+    </additional>
+  </additionals>
+  -->
+
+  <credits>
+    <credit>
+      <person>Ally Sheng</person>
+      <role>Art | Game Design | Programming</role>
+    </credit>
+    <credit>
+      <person>CH Chiang</person>
+      <role>Art | Game Design | Programming: Yes, we both do everything.</role>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <name>Inquiries</name>
+      <!-- Pick one: mail or link -->
+      <mail>info@noice2d.com</mail>
+  </contact>
+  <contact>
+      <name>Facebook</name>
+      <link>http://facebook.com/noice2d</link>
+  </contact>
+  <contact>
+      <name>Twitter</name>
+      <link>http://twitter.com/noice2d</link>
+    </contact>
+  </contacts>
+</company>
