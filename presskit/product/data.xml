@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <product>
-  <title>Tako Bubble</title>
-  <release-date>January 2018</release-date>
+    <title>Tako Bubble</title>
+    <release-dates>
+        <release-date>Web Preview: 19 Sep, 2017</release-date>
+        <release-date>iOS/Android: 11 Jan, 2018</release-date>
+</release-dates>
   <website>http://noice2d.com/takobubble</website>
 
   <!-- Link to request press copy: -->
