@@ -1,1 +1,1 @@
-presskit build ./presskit -o company -L
+presskit build ./presskit_data -o presskit -L

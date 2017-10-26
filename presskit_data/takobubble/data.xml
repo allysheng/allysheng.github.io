@@ -8,7 +8,9 @@
   <website>http://noice2d.com/takobubble</website>
 
   <!-- Link to request press copy: -->
+  <!--
   <press-copy-request>https://www.keymailer.co</press-copy-request>
+  -->
 
   <platforms>
     <platform>
@@ -27,8 +29,8 @@
 
   <prices>
     <price>
-      <currency>USD</currency>
-      <value>$1.99</value>
+      <currency>Freemium: USD</currency>
+      <value>$1.99 for ad removal</value>
     </price>
   </prices>
 
@@ -109,7 +111,8 @@
 
     <credit>
       <person>CH Chiang</person>
-      <role>Assistant Programming</role>
+      <role>Game Design | Programming</role>
+      <website>http://twitter.com/caroparo</website>
     </credit>
   </credits>
 
