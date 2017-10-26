@@ -112,6 +112,11 @@ div.icons a:first-child{
    
 
 }
+div.presskit{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
 div.noice2d_intro{
 	font-size: 1.2em;
 }
