@@ -9,8 +9,9 @@ body.takobubble{
 }
 .takobubble_logo img{
    width:300px;
-     display: block;
-  margin: 0px auto;
+   max-width: 80%;
+   display: block;
+   margin: 0px auto;
 }
 .takobubble_releasedata{
   width: 190px;
