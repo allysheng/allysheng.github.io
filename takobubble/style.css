@@ -1,0 +1,76 @@
+body.takobubble{
+  background-image: url(images/bg_top1.gif); 
+  background-repeat: repeat-x;
+  background-position: center 0px;
+}
+.takobubble_logo{
+  text-align: center;
+  padding: 5px 0px 0px 0px;
+}
+.takobubble_logo img{
+   width:300px;
+     display: block;
+  margin: 0px auto;
+}
+.takobubble_releasedata{
+  width: 190px;
+  margin: 0px auto;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+}
+.takobubble_releasedata img{
+  vertical-align: text-bottom;
+}
+.playbutton{
+  width: 300px;
+  background-color: #fff100;
+  color: #000;
+  margin: 0px auto;
+  font-family: "Visitor";
+  font-weight: bold;
+  font-size: 1.2em;
+  border-radius: 3px;
+  font-family: 'Bungee', cursive;
+  position: relative;
+  margin-bottom: 5px;
+}
+.playbutton span{
+  padding-left: 58px;
+}
+.playbutton img {
+  display: block;
+  position: absolute;
+  width: 40px;
+  left:13px;
+  top : -5px;
+
+}
+.playbutton:hover{
+  background-color: #ffcc00;
+}
+.screenshots_list{
+  width: 650px;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom:50px;
+}
+.screenshots_list img{
+  display: block;
+  border:10px solid #0e3856;
+  float: left;
+  
+  margin-bottom: 10px;
+}
+.screenshots_list img:nth-child(even){
+  margin-left:10px;
+}
+@media screen and (max-width: 650px) and (min-width: 320px) {
+    div.screenshots_list{
+      width: 320px;
+    }
+    div.screenshots_list img:nth-child(even){
+      float: none;
+      margin-left:0px;
+    }
+}
