@@ -73,14 +73,6 @@ a{
    margin: 0 auto;
 }
 
-
-header{
-
-margin: 0px 0px 30px 0px;
-padding-top: 30px;
-
-}
-
 div.logo{
    text-align: center;
    margin: 30px 0px 30px 0px;
@@ -121,15 +113,7 @@ div.presskit{
 div.noice2d_intro{
 	font-size: 1.2em;
 }
-.padding20{
-	padding: 0 20px;
-}
-.lightheight2{
-	line-height: 2;
-}
-.marginbtn30{
-   margin-bottom: 30px;
-}
+
 div.gameimages{
   width: 540px;
   margin:0 auto;
@@ -194,53 +178,10 @@ div.gameimages.prod div a img{
    border:none;
 
 }
-div.prod_description, h3{
-	width: 80%;
-	min-width: 300px;
-	margin:0 auto;
-	margin-bottom: 30px;
-	text-align: left;
-}
+
 h3{
 	font-size: 1.3em;
 	font-weight: bold;
-}
-div.prod.centerimg{
-	text-align: center;
-}
-div.prod.centerimg img{
-display: inline-block;
-width: 100%;
-max-width: 473px;
-}
-.center{
-	text-align: center;
-}
-div.sceenshot img{
-   border-radius: 30px;
-}
-div.demobtn{
-    max-width: 80%;
-    margin: 0 auto;
-    background: #fff700;
-    line-height: 60px;
-    border-radius: 10px;
-    margin-top: 10px;
-    color: #000;
-    border: 3px solid #fbff5f;
-    font-size: 22px;
-       
-}
-
-.prod header {
-    margin: 0px 0px 30px 0px;
-    padding-top: 8px;
-}
-.prod div.logo img {
-    width: 50px;
-}
-.prod div.icons {
-  display: none;
 }
 
 
