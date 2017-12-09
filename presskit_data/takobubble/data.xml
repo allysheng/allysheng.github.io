@@ -44,12 +44,15 @@
   <!-- Or multiple blocks: -->
   <histories>
     <history>
+        <text>Octopus Tako's beetle collection was blown away by a magical swirl of bubbles! Could you help it pop all the bubbles and find them back?</text>
+    </history>
+    <history>
       <header>Web Html5 Preview</header>
       <text>September 2017</text>
     </history>
     <history>
       <header>Mobile Release</header>
-      <text>January 2018</text>
+      <text>January 11, 2018</text>
     </history>
   </histories>
 
