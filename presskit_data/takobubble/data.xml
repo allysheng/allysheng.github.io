@@ -44,21 +44,28 @@
   <!-- Or multiple blocks: -->
   <histories>
     <history>
+        <text>Octopus Tako's beetle collection was blown away by a magical swirl of bubbles! Could you help it pop all the bubbles and find them back?</text>
+    </history>
+    <history>
       <header>Web Html5 Preview</header>
       <text>September 2017</text>
     </history>
     <history>
       <header>Mobile Release</header>
-      <text>January 2018</text>
+      <text>January 11, 2018</text>
     </history>
   </histories>
 
   <features>
-    <feature>Turn-based puzzles, 60 static and timeless levels</feature>
-    <feature>Cartoonish characters; contains only mild cartoon violence (vanishing creatures)</feature>
-    <feature>Freemium model: removable ads, no extra in-app products</feature>
-    <feature>Collectable pixelart beetles; 13 achievements</feature>
-    <feature>Ad-free web playable demo available for html5 browsers including mobile browsers</feature>
+      <feature>Simple 1-finger, 4-direction swipe control</feature>
+      <feature>3 glittering, colored bubbles to pop to get past each level</feature>
+      <feature>10 types of creatures: read AI patterns to defeat them / avoid being checkmated!</feature>
+      <feature>13 achievements</feature>
+      <feature>31 different pixelart beetles to collect</feature>
+      <feature>60 turn-based, static, timeless levels</feature>
+      <feature>Cartoonish characters; contains only mild cartoon violence (vanishing creatures)</feature>
+      <feature>Freemium model: removable ads, no extra in-app products</feature>
+      <feature>Ad-free web playable demo available for html5 browsers including mobile browsers</feature>
   </features>
 
   <trailers>
