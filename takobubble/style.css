@@ -25,30 +25,35 @@ body.takobubble{
 }
 .playbutton{
   width: 300px;
-  background-color: #fff100;
+  background: linear-gradient(rgb(255, 221, 0) 5%, rgb(255, 187, 35) 100%) rgb(255, 221, 0);
+  border: 1px solid rgb(255, 238, 102);
+  text-shadow: rgb(255, 238, 102) 1px 1px 0px;
   color: #000;
   margin: 0px auto;
-  font-family: "Visitor";
   font-weight: bold;
-  font-size: 1.2em;
-  border-radius: 3px;
-  font-family: 'Bungee', cursive;
+  font-size: 1.5em;
+  border-radius: 24px;
+  font-family: 'Kalam', cursive;
   position: relative;
   margin-bottom: 5px;
+  box-shadow: 1px 1px rgb(14, 56, 86);
+  line-height: 1.4;
+  padding-top: 3px;
 }
 .playbutton span{
-  padding-left: 58px;
+  padding-left: 55px;
 }
 .playbutton img {
   display: block;
   position: absolute;
-  width: 40px;
-  left:13px;
-  top : -5px;
+  width: 30px;
+  left:16px;
+  top : 3px;
 
 }
 .playbutton:hover{
-  background-color: #ffcc00;
+    background: linear-gradient(rgb(255, 187, 35) 5%, rgb(255, 221, 0) 100%) rgb(255, 221, 0);
+
 }
 .screenshots_list{
   width: 650px;
