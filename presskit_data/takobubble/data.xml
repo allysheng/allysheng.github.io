@@ -16,13 +16,21 @@
     <platform>
       <name>Web Html5</name>
       <link>http://noice2d.com/takobubble</link>
-    </platform>
+  </platform>
+    <platform>
+        <name>Html5 on Newgrounds</name>
+        <link>https://www.newgrounds.com/portal/view/704561</link>
+      </platform>
     <platform>
       <name>Google Play</name>
       <link>http://noice2d.com/takobubble</link>
     </platform>
     <platform>
       <name>iOS App Store</name>
+      <link>http://noice2d.com/takobubble</link>
+    </platform>
+    <platform>
+      <name>Amazon Appstore</name>
       <link>http://noice2d.com/takobubble</link>
     </platform>
   </platforms>
@@ -49,6 +57,10 @@
     <history>
       <header>Web Html5 Preview</header>
       <text>September 2017</text>
+    </history>
+    <history>
+      <header>Frontpaged on Newgrounds.com</header>
+      <text>January 3, 2018</text>
     </history>
     <history>
       <header>Mobile Release</header>
@@ -102,7 +114,7 @@
   <additionals>
     <additional>
       <title>Web Html5 Preview</title>
-      <description>18 levels made specifically for web preview. Mobile version contains more creatures and traps.</description>
+      <description>18 levels made specifically for web preview. Mobile version contains 60 more levels with more creatures and traps.</description>
       <link>http://noice2d.com/takobubble/demo</link>
     </additional>
   </additionals>
