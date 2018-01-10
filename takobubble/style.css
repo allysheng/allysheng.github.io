@@ -4,8 +4,20 @@ body.takobubble{
   background-position: center 0px;
 }
 .takobubble_logo{
+  max-width: 320px;
+  margin: 0px auto;
   text-align: center;
   padding: 5px 0px 0px 0px;
+  position: relative;
+}
+.takobubble_logo .outnow{
+  position: absolute;
+  width: 75px;
+  right: 15px;
+  top:20px;
+}
+.takobubble_logo .outnow img{
+  width: 100%;
 }
 .takobubble_logo img{
    width:300px;
@@ -25,35 +37,48 @@ body.takobubble{
 }
 .playbutton{
   width: 300px;
-  background: linear-gradient(rgb(255, 221, 0) 5%, rgb(255, 187, 35) 100%) rgb(255, 221, 0);
-  border: 1px solid rgb(255, 238, 102);
-  text-shadow: rgb(255, 238, 102) 1px 1px 0px;
+  background-color: #fff100;
   color: #000;
   margin: 0px auto;
+  font-family: "Visitor";
   font-weight: bold;
-  font-size: 1.5em;
-  border-radius: 24px;
-  font-family: 'Kalam', cursive;
+  font-size: 1.2em;
+  border-radius: 3px;
+  font-family: 'Bungee', cursive;
   position: relative;
   margin-bottom: 5px;
-  box-shadow: 1px 1px rgb(14, 56, 86);
-  line-height: 1.4;
-  padding-top: 3px;
 }
 .playbutton span{
-  padding-left: 55px;
+  padding-left: 58px;
 }
 .playbutton img {
   display: block;
   position: absolute;
-  width: 30px;
-  left:16px;
-  top : 3px;
+  width: 40px;
+  left:13px;
+  top : -5px;
 
 }
 .playbutton:hover{
-    background: linear-gradient(rgb(255, 187, 35) 5%, rgb(255, 221, 0) 100%) rgb(255, 221, 0);
+  background-color: #ffcc00;
+}
+.download_btns{
+  width: 650px;
+  margin: 0px auto;
+  background-color: #008de7;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.download_btns a{
+  display: block;
+  width: 155px;
+  float: left;
+  margin: 5px 0px 5px 6px;
+}
 
+.download_btns a img {
+  width: 100%;
+  display: block;
 }
 .screenshots_list{
   width: 650px;
@@ -79,4 +104,13 @@ body.takobubble{
       float: none;
       margin-left:0px;
     }
+    .download_btns{
+      width: 320px;
+      padding-top: 5px;
+    }
+    .download_btns a{
+      margin-top: 0px;
+      width: 151px;
+    }
+    
 }
