@@ -23,15 +23,15 @@
       </platform>
     <platform>
       <name>Google Play</name>
-      <link>http://noice2d.com/takobubble</link>
+      <link>https://play.google.com/store/apps/details?id=com.noice2d.tako</link>
     </platform>
     <platform>
       <name>iOS App Store</name>
-      <link>http://noice2d.com/takobubble</link>
+      <link>https://itunes.apple.com/app/tako-bubble/id1277602355</link>
     </platform>
     <platform>
       <name>Amazon Appstore</name>
-      <link>http://noice2d.com/takobubble</link>
+      <link>https://www.amazon.com/dp/B078RJGLMF/</link>
     </platform>
   </platforms>
 
@@ -39,6 +39,10 @@
     <price>
       <currency>Freemium: USD</currency>
       <value>$1.99 for ad removal</value>
+    </price>
+    <price>
+      <currency>Web Html5 License:</currency>
+      <value>Free as long as not modified; do not resell</value>
     </price>
   </prices>
 
