@@ -40,6 +40,10 @@
       <currency>Freemium: USD</currency>
       <value>$1.99 for ad removal</value>
     </price>
+    <price>
+      <currency>Web Demo Licensing: Free </currency>
+      <value>as long as unmodified. Do not resell.</value>
+    </price>
   </prices>
 
   <description>
@@ -110,6 +114,14 @@
     </quote>
   </quotes>
   -->
+  <quotes>
+      <quote>
+          <description>Tako Bubble is a simple, well executed and fun puzzle game.</description>
+      <name>Frank "The Sloth" Thompson</name>
+      <website>Android Sloth</website>
+      <link>http://www.androidsloth.com/tako-bubble-review/</link>
+    </quote>
+    </quotes>
 
   <additionals>
     <additional>
