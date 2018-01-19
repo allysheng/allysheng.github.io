@@ -12,9 +12,9 @@ body.takobubble{
 }
 .takobubble_logo .outnow{
   position: absolute;
-  width: 75px;
-  right: 15px;
-  top:20px;
+  width: 80px;
+  right: 9px;
+  top: 20px;
 }
 .takobubble_logo .outnow img{
   width: 100%;
@@ -36,38 +36,43 @@ body.takobubble{
   vertical-align: text-bottom;
 }
 .playbutton{
-  width: 300px;
-  background-color: #fff100;
+  width: 320px;
+  background-color: #ffdd00;
   color: #000;
   margin: 0px auto;
-  font-family: "Visitor";
+ /* font-family: "Visitor";*/
   font-weight: bold;
-  font-size: 1.2em;
-  border-radius: 3px;
-  font-family: 'Bungee', cursive;
+  font-size: 1em;
+  border-radius: 5px;
+  line-height: 1.8;
   position: relative;
+  margin-top: 5px;
   margin-bottom: 5px;
 }
 .playbutton span{
-  padding-left: 58px;
+  padding-left:100px;
 }
 .playbutton img {
   display: block;
   position: absolute;
-  width: 40px;
-  left:13px;
-  top : -5px;
+  width: 25px;
+  left:63px;
+  top : 2px;
 
 }
 .playbutton:hover{
   background-color: #ffcc00;
 }
 .download_btns{
-  width: 650px;
+   width: 330px;
   margin: 0px auto;
-  background-color: #008de7;
+  background-color: #ffdd00;
   border-radius: 5px;
   margin-top: 5px;
+}
+.download_btns:hover{
+ background-color: #ffcc00;
+
 }
 .download_btns a{
   display: block;
