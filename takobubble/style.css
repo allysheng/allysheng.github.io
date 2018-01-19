@@ -54,7 +54,7 @@ body.takobubble{
   padding-left:30px;
   display: inline-block;
   line-height: 1.8;
-  background: url(/images/badges/app_html5.png) no-repeat 0px 1px;
+  background: url(/images/badges/app_html5.png) no-repeat 0px center;
   background-size: 25px 25px;
 }
 .playbutton img {
