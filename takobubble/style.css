@@ -46,11 +46,12 @@ body.takobubble{
   border-radius: 5px;
   line-height: 1.8;
   position: relative;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 5px;
+  text-align: center;
 }
 .playbutton span{
-  padding-left:100px;
+  padding-left:10px;
 }
 .playbutton img {
   display: block;
