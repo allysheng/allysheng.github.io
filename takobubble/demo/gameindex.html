@@ -15,7 +15,7 @@
 
         <!-- Set the background colour of the document -->
         <style>
-             html{
+            html{
               width: 100%;
               height: 100%;
             }
@@ -27,8 +27,6 @@
               border: 0px;
               width: 100%;
               height: 100%;
-              background-position: 50% 30%;
-              background-repeat: no-repeat;
             }
             canvas {
                 image-rendering: optimizeSpeed;
@@ -77,11 +75,22 @@
                width: 100%;
                height: 100%;
             }
-            
+            #rotatePhoneDiv{
+              position: fixed;
+              width: 100%;
+              height: 100%;
+              z-index: 9999;
+              background-repeat: no-repeat;
+              background-position: 50% 50%;
+              background-color: #fff;
+              background-image: url("rotate.png");
+
+            }
         </style>
     </head>
 
     <body>
+        <div id="rotatePhoneDiv" style="display: none;"></div>
         <div class="gm4html5_div_class" id="gm4html5_div_id">
         <img src="html5game/splash.png" id="GM4HTML5_loadingscreen" alt="GameMaker:HTML5 loading screen" style="display:none;"/>
             <!-- Create the canvas element the game draws to -->
@@ -93,32 +102,24 @@
         <!-- Run the game code -->
         <script type="text/javascript" src="html5game/bubble_breaker.js?WIJYB=2078840920"></script>
         <script>
-          var isGameInit = false;
-          var changePhoneView = function(){
-               var gameEl = document.getElementById("gm4html5_div_id");
-               var body = document.body;
-               if(head.mobile){
+     
+          var changeView = function() {
+              var rotateEl = document.getElementById("rotatePhoneDiv");
+              if(head.mobile){
                   if(innerHeight < innerWidth){
-                    gameEl.style.position = "absolute";
-                    body.style.backgroundImage = "url('rotate.png')";
-                    body.style.backgroundColor = "#fff";
-                    gameEl.style.top = "-99999px";
+                      rotateEl.style.display = "";
                   }else{
-                    gameEl.style.position = "";
-                    gameEl.style.top = "";
-                    body.style.backgroundImage = "";
-                    body.style.backgroundColor = "#000";
-                    if(!isGameInit){
-                      GameMaker_Init();
-                    }
+                      rotateEl.style.display = "none";
                   }
-               }
+              }
           };
           window.onload = function(){
-            changePhoneView();
+            GameMaker_Init();
+            changeView();
           };
+         
           window.addEventListener('resize',function(){
-            changePhoneView();
+            changeView();
           });
 
           </script>
