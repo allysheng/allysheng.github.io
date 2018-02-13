@@ -115,11 +115,17 @@
   </quotes>
   -->
   <quotes>
-      <quote>
-          <description>Tako Bubble is a simple, well executed and fun puzzle game.</description>
+    <quote>
+      <description>Tako Bubble is a simple, well executed and fun puzzle game.</description>
       <name>Frank "The Sloth" Thompson</name>
       <website>Android Sloth</website>
       <link>http://www.androidsloth.com/tako-bubble-review/</link>
+    </quote>
+    <quote>
+        <description>Tako Bubble is a simple, but elegant puzzler.</description>
+      <name>Campbell Bird</name>
+      <website>148Apps</website>
+      <link>http://www.148apps.com/reviews/tako-bubble-review/</link>
     </quote>
     </quotes>
 
