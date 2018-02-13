@@ -83,14 +83,27 @@
               background-repeat: no-repeat;
               background-position: 50% 20%;
               background-color: #fff;
-              background-image: url("rotate.png");
-
+            }
+            .Aligner {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                flex-direction:column; 
+                -webkit-justify-content: center;
+                justify-content: center;
+            }
+            #rotatePhoneDiv div{
+              text-align: center;
+              height:200px;
             }
         </style>
     </head>
 
     <body>
-        <div id="rotatePhoneDiv" style="display: none;"></div>
+        <div id="rotatePhoneDiv" style="display: none;" class="Aligner" >
+            <div><img src="rotate.png"></div>
+        </div>
         <div class="gm4html5_div_class" id="gm4html5_div_id">
         <img src="html5game/splash.png" id="GM4HTML5_loadingscreen" alt="GameMaker:HTML5 loading screen" style="display:none;"/>
             <!-- Create the canvas element the game draws to -->
@@ -107,6 +120,7 @@
               var rotateEl = document.getElementById("rotatePhoneDiv");
               if(head.mobile){
                   if(innerHeight < innerWidth){
+                      console.log(innerHeight);
                       rotateEl.style.display = "";
                   }else{
                       rotateEl.style.display = "none";
