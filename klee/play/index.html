@@ -75,8 +75,11 @@
              resizeGame(iframe);
              window.onresize = function(event) {
                resizeGame(iframe);
-               alert("HI");
              };
+             window.onorientationchange = function() {
+                  alert("HI");
+
+             }
              iframe.src = "gameindex.html";
           });
 
