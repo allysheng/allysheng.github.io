@@ -132,7 +132,7 @@ div.gameimages a{
 div.gameimages a:hover{
   background-color: #ffe6d5;
 }
-div.gameimages a:first-child{
+div.gameimages a:nth-child(odd) {
   margin-left: 0px;
 }
 div.gameimages a>div{
