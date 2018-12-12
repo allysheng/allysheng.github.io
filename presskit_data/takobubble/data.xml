@@ -5,7 +5,7 @@
         <release-date>Web Preview: 19 Sep, 2017</release-date>
         <release-date>iOS/Android: 11 Jan, 2018</release-date>
 </release-dates>
-  <website>http://noice2d.com/takobubble</website>
+  <website>https://noice2d.com/takobubble</website>
 
   <!-- Link to request press copy: -->
   <!--
@@ -15,7 +15,7 @@
   <platforms>
     <platform>
       <name>Web Html5</name>
-      <link>http://noice2d.com/takobubble</link>
+      <link>https://noice2d.com/takobubble</link>
   </platform>
     <platform>
         <name>Html5 on Newgrounds</name>
@@ -23,15 +23,11 @@
       </platform>
     <platform>
       <name>Google Play</name>
-      <link>http://noice2d.com/takobubble</link>
+      <link>https://play.google.com/store/apps/details?id=com.noice2d.tako</link>
     </platform>
     <platform>
       <name>iOS App Store</name>
-      <link>http://noice2d.com/takobubble</link>
-    </platform>
-    <platform>
-      <name>Amazon Appstore</name>
-      <link>http://noice2d.com/takobubble</link>
+      <link>https://itunes.apple.com/us/app/tako-bubble/id1277602355</link>
     </platform>
   </platforms>
 
@@ -119,13 +115,13 @@
       <description>Tako Bubble is a simple, well executed and fun puzzle game.</description>
       <name>Frank "The Sloth" Thompson</name>
       <website>Android Sloth</website>
-      <link>http://www.androidsloth.com/tako-bubble-review/</link>
+      <link>https://www.androidsloth.com/tako-bubble-review/</link>
     </quote>
     <quote>
         <description>Tako Bubble is a simple, but elegant puzzler.</description>
       <name>Campbell Bird</name>
       <website>148Apps</website>
-      <link>http://www.148apps.com/reviews/tako-bubble-review/</link>
+      <link>https://www.148apps.com/reviews/tako-bubble-review/</link>
     </quote>
     </quotes>
 
@@ -133,7 +129,7 @@
     <additional>
       <title>Web Html5 Preview</title>
       <description>18 levels made specifically for web preview. Mobile version contains 60 more levels with more creatures and traps.</description>
-      <link>http://noice2d.com/takobubble/demo</link>
+      <link>https://noice2d.com/takobubble/demo</link>
     </additional>
   </additionals>
 
@@ -143,13 +139,13 @@
       <role>Art | Game Design | Programming</role>
 
       <!-- Optional: -->
-      <website>http://twitter.com/allysheng</website>
+      <website>https://twitter.com/allysheng</website>
   </credit>
 
     <credit>
       <person>CH Chiang</person>
       <role>Game Design | Programming</role>
-      <website>http://twitter.com/caroparo</website>
+      <website>https://twitter.com/caroparo</website>
     </credit>
   </credits>
 
@@ -165,14 +161,14 @@
       <name>Twitter</name>
 
       <!-- Pick one: mail or link -->
-      <link>http://twitter.com/noice2d</link>
+      <link>https://twitter.com/noice2d</link>
   </contact>
 
     <contact>
       <name>Facebook</name>
 
       <!-- Pick one: mail or link -->
-      <link>http://facebook.com/noice2d</link>
+      <link>https://facebook.com/noice2d</link>
     </contact>
   </contacts>
 </product>

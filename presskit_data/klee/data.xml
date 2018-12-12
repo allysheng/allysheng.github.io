@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+    <title>Klee: Spacetime Cleaner</title>
+    <release-dates>
+        <release-date>Web Preview: 15 Dec, 2018</release-date>
+    </release-dates>
+  <website>https://noice2d.com/klee</website>
+
+  <!-- Link to request press copy: -->
+  <!--
+  <press-copy-request>https://www.keymailer.co</press-copy-request>
+  -->
+
+  <platforms>
+    <platform>
+      <name>Mobile-friendly Web Html5</name>
+      <link>https://noice2d.com/klee</link>
+    </platform>
+    <platform>
+      <name>iOS App Store: Spring 2019</name>
+      <link>https://noice2d.com/klee</link>
+    </platform>
+  </platforms>
+
+  <prices>
+    <price>
+      <currency>Free: </currency>
+      <value>Ad-supported</value>
+    </price>
+    <price>
+        <currency>Web Html5 License: </currency>
+        <value>Contact us please</value>
+    </price>
+  </prices>
+
+  <description>
+      Klee is a fast-paced arcade game. Clean up game rooms with your auto-blaster guns and simple virtual button control! Oh, and don't forget to recycle the stabilized $energy_cores$ to save the world!
+  </description>
+
+  <!-- Choose between a single block: -->
+  <!--<history></history>-->
+
+  <!-- Or multiple blocks: -->
+  <histories>
+    <history>
+      <header>Web Html5 Preview</header>
+      <text>Dec 2018</text>
+    </history>
+  </histories>
+
+  <features>
+      <feature>Auto-aiming and gunning platformer</feature>
+      <feature>Simple virtual button control</feature>
+      <feature>Randomized gameplay</feature>
+  </features>
+
+  <!--
+  <trailers>
+    <trailer>
+      <name>Trailer</name>
+      <youtube>
+        brsqVKzUSCM    
+      </youtube>
+    </trailer>
+  </trailers>
+  -->
+
+  <!-- You can set your widgets here (optional): -->
+  <!--
+  <awards>
+    <award>
+      <description></description>
+      <info></info>
+    </award>
+  </awards>
+
+  <quotes>
+    <quote>
+      <description></description>
+      <name></name>
+      <website></website>
+      <link></link>
+    </quote>
+  </quotes>
+  -->
+
+  <credits>
+    <credit>
+      <person>Ally Sheng</person>
+      <role>Art | Game Design</role>
+
+      <!-- Optional: -->
+      <website>https://twitter.com/allysheng</website>
+    </credit>
+
+    <credit>
+      <person>CH Chiang</person>
+      <role>Art | Character Design | Game Design | Programming</role>
+      <website>https://twitter.com/caroparo</website>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <name>Inquiries</name>
+
+      <!-- Pick one: mail or link -->
+      <mail>info@noice2d.com</mail>
+  </contact>
+
+    <contact>
+      <name>Twitter</name>
+
+      <!-- Pick one: mail or link -->
+      <link>https://twitter.com/noice2d</link>
+  </contact>
+
+    <contact>
+      <name>Facebook</name>
+
+      <!-- Pick one: mail or link -->
+      <link>https://facebook.com/noice2d</link>
+    </contact>
+  </contacts>
+</product>
