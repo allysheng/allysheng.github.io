@@ -3,7 +3,7 @@
   <title>Noice2D</title>
   <based-in>Taipei, Taiwan</based-in>
   <founding-date>March 6, 2017</founding-date>
-  <website>http://noice2d.com/index.html</website>
+  <website>https://noice2d.com/index.html</website>
   <press-contact>
       <!-- Mail address -->
       info@noice2d.com
@@ -32,15 +32,15 @@
     <social>
       <name>Twitter @noice2d</name>
       <link>
-          <!-- URL starting with http or https -->
-          http://twitter.com/noice2d
+          <!-- URL starting with http or httpss -->
+          https://twitter.com/noice2d
       </link>
     </social>
     <social>
       <name>Facebook Page</name>
       <link>
-          <!-- URL starting with http or https -->
-          http://facebook.com/noice2d
+          <!-- URL starting with http or httpss -->
+          https://facebook.com/noice2d
       </link>
     </social>
   </socials>
@@ -89,7 +89,7 @@
         <description>While it¡¦s not perfect, and it does just offer a fairly 60 levels, Tako Bubble is a fun game that is worth your time.</description>
       <name>Frank "The Sloth" Thompson</name>
       <website>Android Sloth</website>
-      <link>http://www.androidsloth.com/tako-bubble-review/</link>
+      <link>https://www.androidsloth.com/tako-bubble-review/</link>
     </quote>
   </quotes>
 
@@ -121,11 +121,11 @@
   </contact>
   <contact>
       <name>Facebook</name>
-      <link>http://facebook.com/noice2d</link>
+      <link>https://facebook.com/noice2d</link>
   </contact>
   <contact>
       <name>Twitter</name>
-      <link>http://twitter.com/noice2d</link>
+      <link>https://twitter.com/noice2d</link>
     </contact>
   </contacts>
 </company>
