@@ -74,6 +74,9 @@ span.fbbtn{
     width: 65px;
     vertical-align: top;
 }
+span.fbbtn .fb_iframe_widget {
+    display: block;
+}
 span.fbbtn .fb_iframe_widget span{
   display: inline;
 }
