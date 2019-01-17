@@ -17,7 +17,7 @@
       <link>https://noice2d.com/klee</link>
     </platform>
     <platform>
-      <name>iOS App Store: Spring 2019</name>
+      <name>iOS App Store: Summer 2019</name>
       <link>https://noice2d.com/klee</link>
     </platform>
   </platforms>
@@ -29,7 +29,7 @@
     </price>
     <price>
         <currency>Web Html5 License: </currency>
-        <value>Contact us please</value>
+        <value>Please contact us</value>
     </price>
   </prices>
 
@@ -95,7 +95,7 @@
 
     <credit>
       <person>CH Chiang</person>
-      <role>Art | Character Design | Game Design | Programming</role>
+      <role>Game Design | Programming</role>
       <website>https://twitter.com/caroparo</website>
     </credit>
   </credits>
