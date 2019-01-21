@@ -78,7 +78,7 @@ canvas {
  }
  #rotatePhoneDiv div img{
    position: relative;
-   height:130px;
+   height:200px;
    top : -30px;
  }
  #loadingbar_ctn,#loadingText_ctn{
@@ -90,7 +90,7 @@ canvas {
  #loadingText_ctn #loadText{
      width: 100%;
      text-align: center;
-     font-size: 18px;
+     font-size: 3em;
      font-family: "Varela Round", "century gothic", verdana;
      color: #fff;
  }
@@ -123,9 +123,9 @@ canvas {
 .lds-rolling div,
 .lds-rolling div:after {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  border: 20px solid #fff;
+    width: 20em;
+  height: 20em;
+  border: 2em solid #fff;
   border-top-color: transparent;
   border-radius: 50%;
 }
