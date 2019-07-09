@@ -1,0 +1,44 @@
+{
+   "oItemPropStar":[
+       "invincible star",
+       "無敵星星",
+       "无敌星星",
+       "無敵の星"
+   ],
+   "oItemShield":[
+       "Iron Shield",
+       "鐵盾",
+       "铁盾",
+       "鋼鉄の盾"
+   ],
+   "oItemGun2":[
+       "Two-in-one",
+       "二連發",
+       "二连发",
+       "二連發"
+   ],
+   "oItemGun3":[
+       "Shotgun",
+       "散彈",
+       "散弹",
+       "散弾銃"
+   ],
+   "oItemRangeUp":[
+       "Range up",
+       "射擊範圍上升",
+       "射击范围上升",
+       "上昇範囲"
+   ],
+   "oItemFireRateUp":[
+       "Rate up",
+       "發射速度上升",
+       "发射速度上升",
+       "発射速度アップ"
+   ],
+   "oItemCoinBag":[
+       "Energy cores",
+       "一包能量核",
+       "一包能量核",
+       "エネルギー"
+   ]
+}
