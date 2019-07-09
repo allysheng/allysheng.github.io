@@ -1,0 +1,332 @@
+[
+       {
+           "name" : [
+              "KLEE",
+              "克利",
+              "克利",
+              "クレー"
+            ],
+           "description":[
+              "Klee is a supper lucky star ,Klee is a supper lucky star ",
+              "克利是一个急躁的小鬼,\n跑得比子彈還快",
+              "克利是一个急躁的小鬼,\n克利是一个急躁的小鬼",
+              "クレーは衝動的な小悪魔です,\nクレーはクレーは"
+           ],
+           "weaponDescription":[
+              "Klee is a supper lucky star ,Klee is a supper lucky star ",
+              "克利是一个急躁的小鬼,\n克利是一个急躁的小鬼",
+              "克利是一个急躁的小鬼,\n克利是一个急躁的小鬼",
+              "クレーは衝動的な小悪魔です,\nクレーはクレーは"
+           ],
+           "UpgradeDesc4":[
+              "★Upgrade:HP /Speed Up4",
+              "★升級:速度體力上升4",
+              "★升级:速度体力上升4",
+              "★アップグレード：HP /スピードアップ4"
+           ],
+           "UpgradeDesc3":[
+              "★Upgrade:HP /Speed Up3",
+              "★升級:速度體力上升3",
+              "★升级:速度体力上升3",
+              "★アップグレード：HP /スピードアップ3"
+           ],
+           "UpgradeDesc2":[
+              "★Upgrade:HP /Speed Up2",
+              "★升級:速度體力上升2",
+              "★升级:速度体力上升2",
+              "★アップグレード：HP /スピードアップ2"
+           ],
+           "UpgradeDesc1":[
+              "★Upgrade:HP /Speed Up 1",
+              "★升級:速度體力上升1",
+              "★升级:速度体力上升1",
+              "★アップグレード：HP /スピードアップ1"
+           ],
+           "hp":4,
+           "life":3,
+           "spd":4,
+           "cost":0,
+           "upgradeCost":[
+           	      0,
+           	    200,
+           	    400,
+                600,
+                800
+           ]
+       },
+       {
+           "name" : [
+              "HUGO",
+              "雨果",
+              "雨果",
+              "ヒューゴ"
+            ],
+           "description":[
+              "HUGOHUGOHUGOHUGOHUGOHUGO",
+              "雨果雨果雨果雨果",
+              "雨果雨果雨果雨果",
+              "ヒューゴヒューゴヒューゴヒューゴ"
+           ],
+           "weaponDescription":[
+              "HUGOHUGOHUGOHUGOHUGOHUGO",
+              "雨果雨果雨果雨果",
+              "雨果雨果雨果雨果",
+              "ヒューゴヒューゴヒューゴヒューゴ"
+           ],
+           "UpgradeDesc4":[
+              "★Upgrade:HP /Speed Up4",
+              "★升級:速度體力上升4",
+              "★升级:速度体力上升4",
+              "★アップグレード：HP /スピードアップ4"
+           ],
+           "UpgradeDesc3":[
+              "★Upgrade:HP /Speed Up3",
+              "★升級:速度體力上升3",
+              "★升级:速度体力上升3",
+              "★アップグレード：HP /スピードアップ3"
+           ],
+           "UpgradeDesc2":[
+              "★Upgrade:HP /Speed Up2",
+              "★升級:速度體力上升2",
+              "★升级:速度体力上升2",
+              "★アップグレード：HP /スピードアップ2"
+           ],
+           "UpgradeDesc1":[
+              "★Upgrade:HP /Speed Up 1",
+              "★升級:速度體力上升1",
+              "★升级:速度体力上升1",
+              "★アップグレード：HP /スピードアップ1"
+           ],
+           "hp":5,
+           "life":3,
+           "spd":2,
+           "cost":100,
+           "upgradeCost":[
+           	      0,
+           	    200,
+           	    400,
+                600,
+                800
+           ]
+       },
+       {
+           "name" : [
+              "SUKA",
+              "蘇卡",
+              "苏卡",
+              "スカ"
+            ],
+           "description":[
+              "SUKASUKASUKASUKASUKASUKA",
+              "蘇卡蘇卡蘇卡蘇卡",
+              "苏卡苏卡苏卡苏卡",
+              "スカスカスカスカスカスカ"
+           ],
+           "weaponDescription":[
+              "SUKASUKASUKASUKASUKASUKA",
+              "蘇卡蘇卡蘇卡蘇卡",
+              "苏卡苏卡苏卡苏卡",
+              "スカスカスカスカスカスカ"
+           ],
+           "UpgradeDesc4":[
+              "★Upgrade:HP /Speed Up4",
+              "★升級:速度體力上升4",
+              "★升级:速度体力上升4",
+              "★アップグレード：HP /スピードアップ4"
+           ],
+           "UpgradeDesc3":[
+              "★Upgrade:HP /Speed Up3",
+              "★升級:速度體力上升3",
+              "★升级:速度体力上升3",
+              "★アップグレード：HP /スピードアップ3"
+           ],
+           "UpgradeDesc2":[
+              "★Upgrade:HP /Speed Up2",
+              "★升級:速度體力上升2",
+              "★升级:速度体力上升2",
+              "★アップグレード：HP /スピードアップ2"
+           ],
+           "UpgradeDesc1":[
+              "★Upgrade:HP /Speed Up 1",
+              "★升級:速度體力上升1",
+              "★升级:速度体力上升1",
+              "★アップグレード：HP /スピードアップ1"
+           ],
+           "hp":3,
+           "life":1,
+           "spd":5,
+           "cost":1000,
+           "upgradeCost":[
+           	      0,
+           	    200,
+           	    400,
+                600,
+                800
+           ]
+       },
+       {
+           "name" : [
+              "PITA",
+              "皮塔",
+              "皮塔",
+              "ピタ"
+            ],
+           "description":[
+              "PITAPITAPITAPITAPITAPITA",
+              "皮塔皮塔皮塔皮塔皮塔",
+              "皮塔皮塔皮塔皮塔皮塔",
+              "ピタピタピタピタピタピタ"
+           ],
+           "weaponDescription":[
+              "PITAPITAPITAPITAPITAPITA",
+              "皮塔皮塔皮塔皮塔皮塔",
+              "皮塔皮塔皮塔皮塔皮塔",
+              "ピタピタピタピタピタピタ"
+           ],
+           "UpgradeDesc4":[
+              "★Upgrade:HP /Speed Up4",
+              "★升級:速度體力上升4",
+              "★升级:速度体力上升4",
+              "★アップグレード：HP /スピードアップ4"
+           ],
+           "UpgradeDesc3":[
+              "★Upgrade:HP /Speed Up3",
+              "★升級:速度體力上升3",
+              "★升级:速度体力上升3",
+              "★アップグレード：HP /スピードアップ3"
+           ],
+           "UpgradeDesc2":[
+              "★Upgrade:HP /Speed Up2",
+              "★升級:速度體力上升2",
+              "★升级:速度体力上升2",
+              "★アップグレード：HP /スピードアップ2"
+           ],
+           "UpgradeDesc1":[
+              "★Upgrade:HP /Speed Up 1",
+              "★升級:速度體力上升1",
+              "★升级:速度体力上升1",
+              "★アップグレード：HP /スピードアップ1"
+           ],
+           "hp":3,
+           "life":2,
+           "spd":3,
+           "cost":2000,
+           "upgradeCost":[
+           	      0,
+           	    200,
+           	    400,
+                600,
+                800
+           ]
+       },
+       {
+           "name" : [
+              "EMMA",
+              "艾瑪",
+              "艾玛",
+              "エマ"
+            ],
+           "description":[
+              "EMMAEMMAEMMAEMMAEMMAEMMAEMMA",
+              "艾瑪艾瑪艾瑪艾瑪艾瑪",
+              "艾玛艾玛艾玛艾玛艾玛",
+              "エマエマエマエマエマエマエマ"
+           ],
+           "weaponDescription":[
+              "EMMAEMMAEMMAEMMAEMMAEMMAEMMA",
+              "艾瑪艾瑪艾瑪艾瑪艾瑪",
+              "艾玛艾玛艾玛艾玛艾玛",
+              "エマエマエマエマエマエマエマ"
+           ],
+           "UpgradeDesc4":[
+              "★Upgrade:HP /Speed Up4",
+              "★升級:速度體力上升4",
+              "★升级:速度体力上升4",
+              "★アップグレード：HP /スピードアップ4"
+           ],
+           "UpgradeDesc3":[
+              "★Upgrade:HP /Speed Up3",
+              "★升級:速度體力上升3",
+              "★升级:速度体力上升3",
+              "★アップグレード：HP /スピードアップ3"
+           ],
+           "UpgradeDesc2":[
+              "★Upgrade:HP /Speed Up2",
+              "★升級:速度體力上升2",
+              "★升级:速度体力上升2",
+              "★アップグレード：HP /スピードアップ2"
+           ],
+           "UpgradeDesc1":[
+              "★Upgrade:HP /Speed Up 1",
+              "★升級:速度體力上升1",
+              "★升级:速度体力上升1",
+              "★アップグレード：HP /スピードアップ1"
+           ],
+           "hp":5,
+           "life":5,
+           "spd":1,
+           "cost":5000,
+           "upgradeCost":[
+           	      0,
+           	    200,
+           	    400,
+                600,
+                800
+           ]
+       },
+       {
+           "name" : [
+              "MIA",
+              "米亞",
+              "米亚",
+              "ミア"
+            ],
+           "description":[
+              "MIAMIAMIAMIAMIAMIAMIA",
+              "米亞米亞米亞米亞米亞",
+              "米亚米亚米亚米亚米亚",
+              "ミアミアミアミアミアミア"
+           ],
+           "weaponDescription":[
+              "MIAMIAMIAMIAMIAMIAMIA",
+              "米亞米亞米亞米亞米亞",
+              "米亚米亚米亚米亚米亚",
+              "ミアミアミアミアミアミア"
+           ],
+           "UpgradeDesc4":[
+              "★Upgrade:HP /Speed Up4",
+              "★升級:速度體力上升4",
+              "★升级:速度体力上升4",
+              "★アップグレード：HP /スピードアップ4"
+           ],
+           "UpgradeDesc3":[
+              "★Upgrade:HP /Speed Up3",
+              "★升級:速度體力上升3",
+              "★升级:速度体力上升3",
+              "★アップグレード：HP /スピードアップ3"
+           ],
+           "UpgradeDesc2":[
+              "★Upgrade:HP /Speed Up2",
+              "★升級:速度體力上升2",
+              "★升级:速度体力上升2",
+              "★アップグレード：HP /スピードアップ2"
+           ],
+           "UpgradeDesc1":[
+              "★Upgrade:HP /Speed Up 1",
+              "★升級:速度體力上升1",
+              "★升级:速度体力上升1",
+              "★アップグレード：HP /スピードアップ1"
+           ],
+           "hp":1,
+           "life":1,
+           "spd":5,
+           "cost":10000,
+           "upgradeCost":[
+           	      0,
+           	    200,
+           	    400,
+                600,
+                800
+           ]
+       }
+]

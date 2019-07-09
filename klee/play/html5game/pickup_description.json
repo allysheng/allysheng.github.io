@@ -1,0 +1,38 @@
+{
+   "treasureRoomTitle":[
+       "Supplies Station",
+       "補給站",
+       "补给站",
+       "物資ステーション"
+   ],
+   "oFireRateUp":[
+       "Rate of Fire Up",
+       "子彈頻率UP",
+       "子弹频率UP",
+       "連射速度アップ"
+   ],
+   "oRangeUp":[
+       "Range Up",
+       "感應範圍UP",
+       "感应范围UP",
+       "探知距離アップ"
+   ],
+   "oPropStar":[
+       "Invincible Star",
+       "無敵星星",
+       "无敌星星",
+       "無敵スター"
+   ],
+   "oLife":[
+       "Hp Up&Full",
+       "體力補充包",
+       "体力补充包",
+       "HPアップフル"
+   ],
+   "oShield":[
+       "Iron Shield",
+       "鐵盾",
+       "铁盾",
+       "シールド"
+   ]
+}

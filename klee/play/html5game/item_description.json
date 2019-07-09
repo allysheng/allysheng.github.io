@@ -1,0 +1,50 @@
+{
+   "welcomText":[
+       "Get some suppliers",
+       "總部福利社",
+       "无敌星星 \n [技能道具]30秒无敌时间",
+       "無敵の星 \n [スキルの小道具] 30秒無敵の時間"
+   ],
+   "oItemPropStar":[
+       "invincible star \n 30 seconds invincible time",
+       "無敵星星 \n [技能道具]30秒無敵時間",
+       "无敌星星 \n [技能道具]30秒无敌时间",
+       "無敵の星 \n [スキルの小道具] 30秒無敵の時間"
+   ],
+   "oItemShield":[
+       "222invincible star \n 30 seconds invincible time",
+       "鐵盾可擋住一次攻擊",
+       "222无敌星星 \n [技能道具]30秒无敌时间",
+       "222無敵の星 \n [スキルの小道具] 30秒無敵の時間"
+   ],
+   "oItemGun2":[
+       "222invincible star \n 30 seconds invincible time",
+       "二連發子彈\n限時子彈道具,可用時間30秒",
+       "222无敌星星 \n [技能道具]30秒无敌时间",
+       "222無敵の星 \n [スキルの小道具] 30秒無敵の時間"
+   ],
+   "oItemGun3":[
+       "222invincible star \n 30 seconds invincible time",
+       "散彈道具 \n  限時子彈道具,可用時間30秒",
+       "222无敌星星 \n [技能道具]30秒无敌时间",
+       "222無敵の星 \n [スキルの小道具] 30秒無敵の時間"
+   ],
+   "oItemRangeUp":[
+       "222invincible star \n 30 seconds invincible time",
+       "提升射擊感應範圍",
+       "222无敌星星 \n [技能道具]30秒无敌时间",
+       "222無敵の星 \n [スキルの小道具] 30秒無敵の時間"
+   ],
+   "oItemFireRateUp":[
+       "222invincible star \n 30 seconds invincible time",
+       "提升發射速度",
+       "222无敌星星 \n [技能道具]30秒无敌时间",
+       "222無敵の星 \n [スキルの小道具] 30秒無敵の時間"
+   ],
+   "oItemCoinBag":[
+       "222invincible star \n 30 seconds invincible time",
+       "30顆能量核(遊戲內商店可使用)",
+       "222无敌星星 \n [技能道具]30秒无敌时间",
+       "222無敵の星 \n [スキルの小道具] 30秒無敵の時間"
+   ]
+}

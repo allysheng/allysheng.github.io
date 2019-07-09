@@ -1,0 +1,213 @@
+{
+   "version":"V1.0.0",
+   "ok":[
+       "OK",
+       "好",
+       "好",
+       "オッケー"
+   ],
+   "reset":[
+       "RESET",
+       "重設",
+       "重设",
+       "リセット"
+   ],
+   "upgrade":[
+       "UPGRADE",
+       "升級",
+       "升级",
+       "グレード\nアップ"
+   ],
+   "continue":[
+       "Continue",
+       "繼續遊戲",
+       "继续游戏",
+       "コンティニュー"
+   ],
+   "con_shop":[
+       "Spacetime Express",
+       "超時空快遞",
+       "超时空快递",
+       "時空速達"
+   ],
+   "con_shop_ok":[
+       "Shipping in light speed",
+       "光速出貨中",
+       "光速出货中",
+       "ライトスピード配信中"
+   ],
+   "end":[
+       "End this run",
+       "先回家吧",
+       "先回家吧",
+       "帰る"
+   ],
+   "end_s":[
+       "End",
+       "結束",
+       "結束",
+       "終わり"
+   ],
+   "score":[
+       "Score",
+       "得分",
+       "得分",
+       "スコア"
+   ],
+   "best":[
+       "Best record",
+       "最佳紀錄",
+       "最佳记录",
+       "最高の記録"
+   ],
+   "best_s":[
+       "Best",
+       "最佳",
+       "最佳",
+       "最高"
+   ],
+   "notnow":[
+       "Not Now",
+       "先不要",
+       "先不了",
+       "いいえ"
+   ],
+   "supportText":[
+       "Enjoy this game?\nHow about buying us a coffee and removing ADS?",
+       "喜歡這個遊戲嗎?\n要不買杯咖啡支持我們,\n順帶移除廣告如何?",
+       "喜欢这个游戏吗?\n要不买杯咖啡支持我们,\n顺带移除广告如何?",
+       "このゲームを楽しんで？\n一杯のコーヒーと\n広告の削除で私たちをサポート"
+   ],
+   "bagfull":[
+       "Bag is full",
+       "包包已滿",
+       "包包已满",
+       "バッグがいっぱい"
+   ],
+   "nodiamond":[
+       "not enough diamonds",
+       "鑽石不足",
+       "钻石不足",
+       "お金が足りない"
+   ],
+   "noad":[
+       "no ad available",
+       "暫時沒有廣告",
+       "暂时没有广告",
+       "広告がありません"
+   ],
+   "weapontitle":[
+       "Unlimited weapon",
+       "無限子彈道具",
+       "无限子弹道具",
+       "無限弾丸小道具"
+   ],
+   "chapterbtn":[
+       "Chapters",
+       "章節闖關",
+       "章节闯关",
+       "章レベル"
+   ],
+   "dailybtn":[
+       "Infinity Mode",
+       "無限模式",
+       "无限模式",
+       "無限モード"
+   ],
+   "dailynewlevel":[
+       "New level in",
+       "新關卡重生",
+       "新关卡重生",
+       "新レベル生成"
+   ],
+   "bagstorename":[
+       "PITA'S \nBag Store",
+       "皮塔的\n包包工作室",
+       "皮塔的\n包包工作室",
+       "ピタの\nバッグスタジオ"
+   ],
+   "bagstore_msg_locked":[
+       "Dear customer:\nI'm going for a long vacation.\nI Don't know when will come back.",
+       "親愛的顧客：\n老闆去旅行。不確定什麼時候回來。",
+       "亲爱的顾客：\n老板去旅行。不确定什么时候回来。",
+       "お客様各位：\n店主は長い休暇のために行きます。\nいつ戻ってくるのかわかりません。"
+   ],
+   "bagstore_msg_open":[
+       "Custom bag expand survice",
+       "本店提供:包包容量擴增服務",
+       "本店提供:包包容量扩增服务",
+       "バッグ容量拡大サービスを提供します"
+   ],
+   "bagstore_msg_max":[
+       "This Bag is max level!",
+       "這包已經最大化了!",
+       "这包已经最大化了!",
+       "このバッグは最大化されています!"
+   ],
+   "bagstore_maxlevel":[
+       "Max level",
+       "已達最大容量",
+       "已达最大容量",
+       "最大容量"
+   ],
+   "bagstore_maxlevel_s":[
+       "max",
+       "最大",
+       "最大",
+       "最大"
+   ],
+   "close":[
+       "Close",
+       "關閉",
+       "关闭",
+       "クローズ"
+   ],
+   "price_pre":[
+       "$",
+       "NT$",
+       "¥",
+       "¥"
+   ],
+   "price_end":[
+       "USD",
+       "",
+       "",
+       ""
+   ],
+   "price_0":[
+       "$ 3.99 USD",
+       "$ 130 TWD",
+       "$ 25 CNY",
+       "$ 480 JPY"
+   ],
+   "price_1":[
+       "$ 1.99 USD",
+       "$ 70 TWD",
+       "$ 12 CNY",
+       "$ 240 JPY"
+   ],
+   "IAPUI_title_1":[
+        "First 3 Day Offer !",
+        "三日限時減價!",
+        "三日限时减价!",
+        "3日間限定期間値下げ！"
+   ],
+   "IAPUI_title_0":[
+        "VIP Ad-free package",
+        "VIP無廣告組合包",
+        "VIP无广告组合包",
+        "VIP広告なしパッケージ"
+   ],
+   "IAPUI_desc_1":[
+        "Remove Ads\nDouble Reward\nBag Capacity (+1)\nFree item (+1 each run)",
+        "移除所有廣告\n雙倍獎勵\n包包容量+1\n免費道具:每局隨機帶一個",
+        "移除所有广告\n双倍奖励\n包包容量+1\n免费道具:每局随机带一个",
+        "広告を削除\nダブルリワード\nバッグサイズ+1 \n無料アイテム（各ラン+1）"
+   ],
+   "IAPUI_desc_2":[
+        "Bonus Diamonds\n+50000",
+        "獎金鑽石\n +50000",
+        "奖金钻石\n +50000",
+        "ボーナスダイヤモンド\n +50000"
+   ]
+}
