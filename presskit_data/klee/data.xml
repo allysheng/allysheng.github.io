@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <product>
-    <title>Klee: Spacetime Cleaner</title>
+    <title>Klee: Spacetime Cleaners</title>
     <release-dates>
         <release-date>Web Preview: 15 Dec, 2018</release-date>
+        <release-date>Early Access: Nov 2019</release-date>
+        <release-date>Mobile: 9 Jan, 2020</release-date>
     </release-dates>
   <website>https://noice2d.com/klee</website>
 
@@ -17,7 +19,11 @@
       <link>https://noice2d.com/klee</link>
     </platform>
     <platform>
-      <name>iOS App Store: Summer 2019</name>
+      <name>Android: Google Play Store</name>
+      <link>https://noice2d.com/klee</link>
+    </platform>
+    <platform>
+      <name>iOS App Store</name>
       <link>https://noice2d.com/klee</link>
     </platform>
   </platforms>
@@ -26,6 +32,10 @@
     <price>
       <currency>Free: </currency>
       <value>Ad-supported</value>
+    </price>
+    <price>
+      <currency>IAP Ad Removal: </currency>
+      <value>USD$4</value>
     </price>
     <price>
         <currency>Web Html5 License: </currency>
@@ -46,12 +56,20 @@
       <header>Web Html5 Preview</header>
       <text>Dec 2018</text>
     </history>
+    <history>
+      <header>Taipei Game Show | Demo</header>
+      <text>Jan 2019 | tgs.tca.org.tw</text>
+    </history>
+    <history>
+      <header>Summer Game Show | Demo</header>
+      <text>July 2019 | sgs.tca.org.tw</text>
+    </history>
   </histories>
 
   <features>
-      <feature>Auto-aiming and gunning platformer</feature>
-      <feature>Simple virtual button control</feature>
-      <feature>Randomized gameplay</feature>
+      <feature>Fast-paced, auto-aiming and gunning platformer</feature>
+      <feature>Simple virtual button controls: super easy to pick up</feature>
+      <feature>Randomized gameplay; addictive game loops</feature>
   </features>
 
   <!--
@@ -87,7 +105,7 @@
   <credits>
     <credit>
       <person>Ally Sheng</person>
-      <role>Art | Game Design</role>
+      <role>Producer | Ninja</role>
 
       <!-- Optional: -->
       <website>https://twitter.com/allysheng</website>
@@ -95,7 +113,7 @@
 
     <credit>
       <person>CH Chiang</person>
-      <role>Game Design | Programming</role>
+      <role>Producer | Ninja</role>
       <website>https://twitter.com/caroparo</website>
     </credit>
   </credits>
