@@ -5,7 +5,7 @@
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1">
-<title>超時空BB蛋:Klee | Klee : Spacetime Cleaner | クリー：時空掃除屋</title>
+<title>超時空BB蛋:Klee | Klee: Spacetime Cleaners | クリー：時空掃除屋</title>
 <meta name="keywords" content="Klee,克利,超時空BB蛋,run,gun,Noice2d, game, mobile games,去冰,遊戲 ">
 <meta name="description" content=">Klee : 超時空BB蛋">
 <meta property="fb:app_id" content="272301038042" />
@@ -33,7 +33,6 @@
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -78,25 +77,18 @@
      
       <div class="logo">
         <img src="/klee/images/klee_logo.png" title="Klee" alt="Klee" >
-        <h1>超時空BB蛋</h1>
+        <h1 data-bind="text: sub_title">超時空BB蛋</h1>
       </div>
 
       
        <div class="h5gamestart">
              <a href="/klee/play">
       		 <div class="button">
-      		 	<span>開始遊戲</span>
+      		 	<span data-bind="text: h5_start">開始遊戲</span>
       		 </div>
       		 </a>
-      		 <p style="margin-bottom: 10px;"><span style="padding-right:2px; ">預計2019年底登陸</span><img class="platform" src="/images/badges/app_appstore_white.png">
+      		 <p style="margin-bottom: 10px;"><span style="padding-right:2px; " data-bind="text: release_date">預計2019年底登陸</span><img class="platform" src="/images/badges/app_appstore_white.png">
             <img class="platform" src="/images/badges/app_playstore.png"></p>
-      		 <div>
-      		 	<span class="fbbtn"><div class="fb-share-button" data-href="https://noice2d.com/klee/" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnoice2d.com%2Fklee%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">分享</a></div></span>
-                <a class="linebtn" href="https://social-plugins.line.me/lineit/share?url=https://noice2d.com/klee" >
-                  <img src="https://d.line-scdn.net/r/web/social-plugin/img/common/line_60.png" alt="">用LINE傳送
-                </a>
-                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-url="https://noice2d.com/klee" data-via="noice2d" data-hashtags="Klee" data-show-count="false" data-size="large">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      		 </div>
            
 
       	</div>
@@ -104,8 +96,7 @@
      <h2>Description</h2>
      <div class="narrowColumn">
        <div class="plaintext">
-        <p>「超時空BB蛋」是一個快節奏的平台跳躍動作遊戲。用簡單的虛擬按鍵操作配合自動射擊，清空遊戲畫面吧！喔還有別忘了回收重要的$能量核心$，解除世界的能源危機！</p>
-        <p>Klee is a fast-paced arcade game. Clean up game rooms with your auto-blaster guns and simple virtual button control! Oh, and don't forget to recycle the stabilized $energy_cores$ to save the world!</p>
+        <p data-bind="text: desc">「超時空BB蛋」是一個快節奏的平台跳躍動作遊戲。用簡單的虛擬按鍵操作配合自動射擊，清空遊戲畫面吧！喔還有別忘了回收重要的$能量核心$，解除世界的能源危機！</p>
      </div>
 
      </div> 
@@ -118,14 +109,12 @@
         <img src="/klee/images/screenshots/klee_s03.gif">
         <img src="/klee/images/screenshots/klee_s04.gif">
       </div>
-     
-      
-
      <footer>
-         ©  2017-2019 Noice2d 去冰遊戲工作室
+         ©  2017-2020 <span data-bind="text: noice2d">Noice2d Game Studio 去冰遊戲工作室</span>
      </footer>
   </div>
 </div>
 </body>
-
+<script type="text/javascript" src="/knockout-3.5.0.js"></script>
+<script type="text/javascript" src="text_lang.js"></script>
 </html>

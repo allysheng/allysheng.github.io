@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1">
-<title>Noice2d - We make noice games 去冰遊戲</title>
+<title>Noice2d - Let's make noice games 去冰遊戲</title>
 <meta name="keywords" content="Noice2d, game, mobile games,去冰,遊戲 ">
 <meta name="description" content="Noice2d - Let's make noice games 去冰遊戲">
 <meta property="fb:app_id" content="272301038042" />
@@ -74,21 +74,21 @@
       <a href="klee/index.html">
       <div>
         <p><img src="/images/klee_icon.png"></p>
-        <h1>超時空BB蛋<br>Klee</h1>
+        <h1 data-bind="text: klee_name">超時空BB蛋</h1>
             <p><img class="platform" src="/images/badges/app_html5.png"><img class="platform" src="/images/badges/app_appstore_black.png">
             <img class="platform" src="/images/badges/app_playstore.png">
             </p>
-        <p class="date">WIP開發中 : Q4 2019</p>
+        <p class="date" data-bind="text: klee_release"> 2020 / 01 / 09 </p>
       </div>
       </a>
      	<a href="takobubble/index.html">
      	<div>
      		<p><img src="/images/takobubble_image.png"></p>
-     		<h1>塔可泡泡<br>Tako Bubble</h1>
+     		<h1 data-bind="text: tako_name">塔可泡泡</h1>
             <p><img class="platform" src="/images/badges/app_html5.png"><img class="platform" src="/images/badges/app_appstore_black.png">
             <img class="platform" src="/images/badges/app_playstore.png">
             </p>
-     		<p class="date">Jan 11, 2018</p>
+     		<p class="date" data-bind="text: tako_release">Jan 11, 2018</p>
      	</div>
      	</a>
         <a href="https://itunes.apple.com/app/chirpy-time-timer-alarm-clock/id536427957?l=zh&mt=8"><div>
@@ -106,10 +106,11 @@
      <a href="https://twitter.com/noice2d"><div class="onlinetext"><p><span class="twitter">twitter.com/noice2d</span></p></div></a>
      <a href="https://facebook.com/noice2d"><div class="onlinetext"><p><span class="facebook">facebook.com/noice2d</span></p></div></a>
      <footer>
-        ©  2017-2019 Noice2d 去冰遊戲工作室
+        ©  2017-2020 <span data-bind="text: noice2d">Noice2d Game Studio 去冰遊戲工作室</span>
 
      </footer>
   </div>
 </body>
-
+<script type="text/javascript" src="/knockout-3.5.0.js"></script>
+<script type="text/javascript" src="text_lang.js"></script>
 </html>
