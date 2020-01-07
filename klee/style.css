@@ -29,27 +29,57 @@ div.logo h1{
     color: #5bffd1;
     font-weight: bold;
 }
+.download_btns{
+  width: 416px;
+  margin: 0px auto;
+  margin-top: 4px;
+}
+
+.download_btns div{
+  border-radius: 7px;
+  width: 200px;
+  float: right;
+  background-color: #00ffcc;
+  padding: 2px;
+}
+
+.download_btns div:first-child{
+  float: left;
+}
+.download_btns a{
+  display: block;
+}
+
+.download_btns a img {
+  width: 100%;
+  display: block;
+}
 div.h5gamestart{
   text-align: center;
   color: #fff;
-  margin: 60px 0px;
+  margin: 10px 0px 30px 0px;
 }
 div.h5gamestart .button{
-   background: url(images/btnbg.png) no-repeat;
-   width: 216px;
-   height: 75px;
+   width: 410px;
+   height: 36px;
    margin: 0px auto;
    text-align: center;
-   line-height: 75px;
+   line-height: 36px;
    margin-bottom: 10px;
+   border: 2px solid #00ffcc;
+   border-radius: 7px;
+   background: #000;
 }
 div.h5gamestart .button img{
   vertical-align: middle;
 }
 div.h5gamestart .button span{
     color: #fff;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: bold;
+    padding-left: 30px;
+    background: url(/images/badges/app_html5.png) no-repeat 0px center;
+    background-size: 25px 25px;
 }
 
 .screenshots_list{
