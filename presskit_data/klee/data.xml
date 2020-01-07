@@ -20,11 +20,11 @@
     </platform>
     <platform>
       <name>Android: Google Play Store</name>
-      <link>https://noice2d.com/klee</link>
+      <link>https://play.google.com/store/apps/details?id=com.noice2d.klee</link>
     </platform>
     <platform>
       <name>iOS App Store</name>
-      <link>https://noice2d.com/klee</link>
+      <link>https://apps.apple.com/app/klee-spacetime-cleaners/id1483582713</link>
     </platform>
   </platforms>
 
