@@ -1,13 +1,23 @@
 body.takobubble{
   background-image: url(images/bg_top1.gif); 
   background-repeat: repeat-x;
-  background-position: center 0px;
+  background-position: center 30px;
+}
+#wrapper h2
+{
+  color: #f66d03;
+  text-align: center;
+}
+#wrapper p
+{
+  color: #fff;
+
 }
 .takobubble_logo{
-  max-width: 320px;
+  /*max-width: 320px;*/
   margin: 0px auto;
   text-align: center;
-  padding: 5px 0px 0px 0px;
+  padding: 120px 0px 0px 0px;
   position: relative;
 }
 .takobubble_logo .outnow{

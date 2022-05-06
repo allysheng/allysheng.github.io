@@ -6,11 +6,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1">
 <title>Noice2d - We make noice games 去冰遊戲</title>
 <meta name="keywords" content="Noice2d, tako bubble, game, mobile games,去冰,遊戲 "/>
-<meta property="fb:app_id" content="272301038042" />
+<!-- <meta property="fb:app_id" content="272301038042" />
 <meta name="description" content="Noice2d - We make noice games 去冰遊戲"/>
 <meta property="og:site_name" content="Noice2d 去冰遊戲"/>
 <meta property="og:type" content="website"/>
- <meta property="og:title" content="Tako Bubble (IOS / Android / HTML5)"/>
+<meta property="og:title" content="Tako Bubble (IOS / Android / HTML5)"/>
 <meta property="og:image" content="https://noice2d.com/takobubble/images/tako_icon.png"/>
 <meta property="og:image:width" content="300" />
 <meta property="og:image:height" content="300" />
@@ -23,13 +23,14 @@
 <meta name="twitter:site" content="@noice2d" />
 <meta name="twitter:title" content="Tako Bubble (iOS / Android / HTML5)" />
 <meta name="twitter:description" content="A turn-based casual puzzler. Defeat ferocious monsters, pop all the bubbles, and find hidden beetle gems." />
-<meta name="twitter:image" content="https://noice2d.com/takobubble/demo/tako_icon192.png" />
-<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Kalam:700" rel="stylesheet"><link rel="stylesheet" href="/css/style.css?v=1.0">
+<meta name="twitter:image" content="https://noice2d.com/takobubble/demo/tako_icon192.png" /> -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kalam:700" rel="stylesheet">-->
+<!-- <link rel="stylesheet" href="/css/style.css?v=1.0">  -->
+<link href="/css/styles-2022.css" rel="stylesheet" />
 <link rel="stylesheet" href="/takobubble/style.css">
 <link rel="apple-touch-icon" href="/images/logo_light.png">
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/x-icon" href="/noice2d.ico" />
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -47,7 +48,7 @@
 </head>
 
 <body class="prod dark takobubble" style="background-color:#000">
-<header>
+<!-- <header>
   <div class="topbar">
         <a class="home" href="/index.html">
           <img src="/images/icons/home_black.png">
@@ -60,10 +61,26 @@
         </a>
         <a href="/presskit/takobubble/index.html" class="presskit"> Tako Bubble Press Page </a>
   </div> 	
-  </header>
-<div style="background-image: url(images/bg_bubble.png); 
+  </header> -->
+<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="/#page-top" ><img src="/assets/noice_logo_white.svg" style ="width: 3rem; padding-right: 1rem;">NOICE2D GAME STUDIO</a>
+        <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/#games">Games</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/#about">About</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div  class="container" style="background-image: url(images/bg_bubble.png); 
   background-repeat: no-repeat;
-  background-position: center 0px;">
+  background-position: center 100px;">
   
   
   <div id="wrapper">
@@ -85,9 +102,12 @@
       </div>
       <h2>Game Story</h2>
       <div class="plaintext">
-          <p data-bind="text: story">章魚《塔可》的甲蟲收藏品被一陣魔法漩渦給捲走了，它一怒之下決定戳破海底世界的所有泡泡，把甲蟲找回來！你可以幫幫它嗎？</p>
+          <p data-bind="text: story">Octopus Tako's beetle collection was blown away by a magical swirl of bubbles! Could you help it pop all the bubbles and find them back?</p>
       </div>
-      
+       <h2>Description</h2>
+      <div class="plaintext">
+      <p data-bind="text: desc">Tako Bubble is a turn-based casual puzzler. You play as Tako, a yellow octopus, to crawl through deep-ocean environments, defeat ferocious monsters, pop all the bubbles, and find hidden beetle gems.</p>
+     </div>     
      <h2>Screenshots</h2>
      <div class="screenshots_list clearfix">
         <img src="/takobubble/images/screenshots/s01.png">
@@ -96,17 +116,21 @@
         <img src="/takobubble/images/screenshots/s04.png">
       </div>
      
-      <h2>Description</h2>
-      <div class="plaintext">
-      <p data-bind="text: desc">塔可泡泡是一個回合制的小品益智遊戲。請幫助黃色小章魚《塔可》在深海中擊退兇猛的怪物，打爆所有的泡泡，找回所有遺失的甲蟲寶石吧！</p>
-     </div>
 
-     <footer>
-         ©  2017-2020 <span data-bind="text: noice2d">Noice2d Game Studio 去冰遊戲工作室</span>
-     </footer>
+
   </div>
 </div>
+
+<div class="copyright py-4 text-center text-white">
+    <div class="container">
+        <div class="col-lg-12 mb-1">
+            <a href="/privacy-policy.html">PRIVACY POLICY</a>
+            
+        </div>
+        <div class="col-lg-12 mb-2">
+        <small>Copyright &copy; Noice2D Game Studio 2017- 2022 </span></small>
+        </div>
+    </div>
+</div>
 </body>
-<script type="text/javascript" src="/knockout-3.5.0.js"></script>
-<script type="text/javascript" src="text_lang.js"></script>
 </html>
