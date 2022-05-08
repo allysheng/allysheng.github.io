@@ -57,7 +57,7 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
-  --bs-body-font-size: 1rem;
+  --bs-body-font-size: 1.2rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
@@ -515,7 +515,7 @@ progress {
   }
 }
 
-.display-3 {
+  .display-3 {
   font-size: calc(1.525rem + 3.3vw);
   font-weight: 300;
   line-height: 1.2;
@@ -4034,8 +4034,8 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4058,6 +4058,30 @@ textarea.form-control-lg {
   white-space: nowrap;
   max-width: 66%;
 }
+
+.navbar-brand img
+{
+  width: 1.8em;
+}
+
+.navbar-brand>span
+{
+  padding-left: 4px;
+}
+
+.navbar-brand span span
+{
+    display: none;
+}
+
+@media (min-width: 576px) {
+  .navbar-brand span span
+  {
+    display: inline;
+  }
+}
+
+
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -11302,7 +11326,7 @@ html {
 }
 
 .page-section.top{
-  padding-top: 6rem;
+  padding-top: 5.5rem;
 }
 
 @media (min-width: 992px) {
@@ -11365,8 +11389,8 @@ html {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+ /* padding-top: 1rem;
+  padding-bottom: 1rem;*/
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
 }
@@ -11548,6 +11572,16 @@ html {
   height:100%;
   background:#000;
 }
+.mb-5.store-label
+{
+  margin-bottom: 0rem !important;
+}
+.mb-5.store-desc
+{
+  margin-top: 1.5rem ;
+
+}
+
 .store-label a
 {
   display: block;
