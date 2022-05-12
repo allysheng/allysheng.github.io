@@ -70,3 +70,5 @@ openx.com, 541031350, RESELLER, 6a698e2ec38604c6
 rhythmone.com, 3630748062, RESELLER, a670c89d4a324e47
 video.unrulymedia.com, 3630748062, RESELLER, a670c89d4a324e47
 yandex.com, 40427798, RESELLER
+# Index Exchange open bidding
+indexexchange.com, 198820, DIRECT, 50b1c356f2c5c8fc
