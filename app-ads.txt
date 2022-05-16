@@ -7,7 +7,7 @@ indexexchange.com, 198820, DIRECT, 50b1c356f2c5c8fc
 # OpenX
 openx.com, 557068541, DIRECT, 6a698e2ec38604c6
 
-# Rubicon Project
+# Rubicon (Magnite)
 rubiconproject.com, 22884, DIRECT, 0bfd66d529a55807
 
 # Smaato open bidding (EB App-ads.txt)
