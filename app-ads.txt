@@ -23,9 +23,10 @@ smartadserver.com, 3117, RESELLER
 startapp.com, smt, RESELLER
 xad.com, 241, RESELLER, 81cbf0a75a5e0e9a
 
-# Facebook: business ID, property ID
+# Facebook: business ID, property IDs
 facebook.com, 2228087643915176, RESELLER, c3e20eee3f780d68
 facebook.com, 2353918931339917, RESELLER, c3e20eee3f780d68
+facebook.com, 3137490043198294, RESELLER, c3e20eee3f780d68
 
 #UnityAds
 unity.com, 1118516, DIRECT, 96cabb5fbdde37a7
