@@ -23,6 +23,10 @@ smartadserver.com, 3117, RESELLER
 startapp.com, smt, RESELLER
 xad.com, 241, RESELLER, 81cbf0a75a5e0e9a
 
+# Facebook: business ID, property ID
+facebook.com, 2228087643915176, RESELLER, c3e20eee3f780d68
+facebook.com, 2353918931339917, RESELLER, c3e20eee3f780d68
+
 #UnityAds
 unity.com, 1118516, DIRECT, 96cabb5fbdde37a7
 loopme.com, 9621, RESELLER, 6c8d5f95897a5a3b
@@ -45,8 +49,6 @@ algorix.co, 54616, RESELLER
 google.com, pub-2873028806715828, RESELLER, f08c47fec0942fa0
 telaria.com, rwd19-1118516, RESELLER, 1a4e959a1b50034a
 tremorhub.com, rwd19-1118516, RESELLER, 1a4e959a1b50034a
-facebook.com, 2228087643915176, RESELLER, c3e20eee3f780d68
-facebook.com, 2353918931339917, RESELLER, c3e20eee3f780d68
 inmobi.com, 61d733c3779d43e590c51c8bc078e10c, RESELLER, 83e75a7ae333ca9d
 inmobi.com, 062029933580429f9920bad476d8d70a, RESELLER, 83e75a7ae333ca9d
 rubiconproject.com, 14334, RESELLER, 0bfd66d529a55807
