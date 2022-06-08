@@ -30,9 +30,7 @@ startapp.com, smt, RESELLER
 xad.com, 241, RESELLER, 81cbf0a75a5e0e9a
 
 # Facebook: business ID, property IDs
-facebook.com, 2228087643915176, RESELLER, c3e20eee3f780d68
-facebook.com, 2353918931339917, RESELLER, c3e20eee3f780d68
-facebook.com, 3137490043198294, RESELLER, c3e20eee3f780d68
+facebook.com, 2228087643915176, DIRECT, c3e20eee3f780d68
 
 #UnityAds
 unity.com, 1118516, DIRECT, 96cabb5fbdde37a7
@@ -116,6 +114,8 @@ yandex.com, 97539269, RESELLER
 openx.com, 540866936, RESELLER, 6a698e2ec38604c6
 rhythmone.com, 3383599585, RESELLER, a670c89d4a324e47
 pubmatic.com, 160974, RESELLER, 5d62403b186f2ace
+xandr.com, 13297, RESELLER
+appnexus.com, 13297, RESELLER
 
 # Inmobi
 inmobi.com,83162198895f4e3a899d738c653c61da,DIRECT,83e75a7ae333ca9d
