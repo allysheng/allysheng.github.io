@@ -169,6 +169,13 @@ yandex.com, 40427798, RESELLER
 yandex.com, 95746987, RESELLER
 yandex.com, 97539269, RESELLER
 yeahmobi.com, 5135195, RESELLER
+contextweb.com, 562791, RESELLER, 89ff185a4c4e857c
+google.com, pub-2873028806715828, RESELLER, f08c47fec0942fa0
+inmobi.com, 7847fe1f9ac54b4abe609cde4011243b, RESELLER, 83e75a7ae333ca9d
+pubmatic.com, 163420, RESELLER, 5d62403b186f2ace
+video.unrulymedia.com, 123476257, RESELLER
+xandr.com, 13799, RESELLER
+Xapads.com, 155860, RESELLER
 
 # Inmobi
 inmobi.com,83162198895f4e3a899d738c653c61da,DIRECT,83e75a7ae333ca9d
