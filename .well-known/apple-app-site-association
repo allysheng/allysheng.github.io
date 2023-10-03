@@ -1,0 +1,14 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "VJ4G738TEN.com.noice2d.ufo",
+                "paths": [
+                    "/ufo99",
+                    "/ufo99/*"
+                ]
+            }
+        ]
+    }
+}
