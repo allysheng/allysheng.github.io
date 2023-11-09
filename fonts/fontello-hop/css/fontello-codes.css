@@ -23,9 +23,9 @@
 .icon-circle-minus:before { content: '\e815'; } /* '' */
 .icon-circle-y:before { content: '\e816'; } /* '' */
 .icon-circle:before { content: '\e817'; } /* '' */
-.icon-coin-center:before { content: '\e818'; } /* '' */
-.icon-dungeon-1:before { content: '\e819'; } /* '' */
-.icon-dungeon-2:before { content: '\e81a'; } /* '' */
+.icon-token_center:before { content: '\e818'; } /* '' */
+.icon-dungeon-2:before { content: '\e819'; } /* '' */
+.icon-dungeon-1:before { content: '\e81a'; } /* '' */
 .icon-eye-slash:before { content: '\e81b'; } /* '' */
 .icon-eye:before { content: '\e81c'; } /* '' */
 .icon-fire-flame-curved:before { content: '\e81d'; } /* '' */
@@ -33,7 +33,6 @@
 .icon-gamepad-modern:before { content: '\e81f'; } /* '' */
 .icon-gear:before { content: '\e820'; } /* '' */
 .icon-gift:before { content: '\e821'; } /* '' */
-.icon-hammer-war:before { content: '\e822'; } /* '' */
 .icon-hand-pointer:before { content: '\e823'; } /* '' */
 .icon-heart:before { content: '\e824'; } /* '' */
 .icon-home:before { content: '\e825'; } /* '' */
@@ -44,7 +43,6 @@
 .icon-left:before { content: '\e82a'; } /* '' */
 .icon-lock-open:before { content: '\e82b'; } /* '' */
 .icon-lock:before { content: '\e82c'; } /* '' */
-.icon-magnet:before { content: '\e82d'; } /* '' */
 .icon-message-dots:before { content: '\e82e'; } /* '' */
 .icon-mug-hot:before { content: '\e82f'; } /* '' */
 .icon-music-slash:before { content: '\e830'; } /* '' */
@@ -54,7 +52,7 @@
 .icon-robot:before { content: '\e834'; } /* '' */
 .icon-rotate:before { content: '\e835'; } /* '' */
 .icon-satellite-dish:before { content: '\e836'; } /* '' */
-.icon-smoke:before { content: '\e837'; } /* '' */
+.icon-smoke-1:before { content: '\e837'; } /* '' */
 .icon-square-caret-left:before { content: '\e838'; } /* '' */
 .icon-square-caret-right:before { content: '\e839'; } /* '' */
 .icon-square-caret-up:before { content: '\e83a'; } /* '' */
@@ -65,7 +63,7 @@
 .icon-timer:before { content: '\e83f'; } /* '' */
 .icon-toggle-off:before { content: '\e840'; } /* '' */
 .icon-toggle-on:before { content: '\e841'; } /* '' */
-.icon-token-center:before { content: '\e842'; } /* '' */
+.icon-coin_center:before { content: '\e842'; } /* '' */
 .icon-treasure-chest-bg:before { content: '\e843'; } /* '' */
 .icon-treasure-chest:before { content: '\e844'; } /* '' */
 .icon-trees:before { content: '\e845'; } /* '' */
@@ -80,3 +78,11 @@
 .icon-volume-xmark:before { content: '\e84e'; } /* '' */
 .icon-volume:before { content: '\e84f'; } /* '' */
 .icon-pause:before { content: '\e850'; } /* '' */
+.icon-lottery_m_body_1:before { content: '\e851'; } /* '' */
+.icon-lottery_m_body_2:before { content: '\e852'; } /* '' */
+.icon-magnet-1:before { content: '\e856'; } /* '' */
+.icon-magnet-2:before { content: '\e857'; } /* '' */
+.icon-hammer-war-2:before { content: '\e858'; } /* '' */
+.icon-hammer-war-1:before { content: '\e859'; } /* '' */
+.icon-smoke-2:before { content: '\e85a'; } /* '' */
+.icon-dice-five:before { content: '\e85b'; } /* '' */
