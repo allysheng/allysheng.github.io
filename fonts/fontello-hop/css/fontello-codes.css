@@ -33,6 +33,7 @@
 .icon-gamepad-modern:before { content: '\e81f'; } /* '' */
 .icon-gear:before { content: '\e820'; } /* '' */
 .icon-gift:before { content: '\e821'; } /* '' */
+.icon-person-simple:before { content: '\e822'; } /* '' */
 .icon-hand-pointer:before { content: '\e823'; } /* '' */
 .icon-heart:before { content: '\e824'; } /* '' */
 .icon-home:before { content: '\e825'; } /* '' */
@@ -56,7 +57,6 @@
 .icon-square-caret-left:before { content: '\e838'; } /* '' */
 .icon-square-caret-right:before { content: '\e839'; } /* '' */
 .icon-square-caret-up:before { content: '\e83a'; } /* '' */
-.icon-square-code:before { content: '\e83b'; } /* '' */
 .icon-star:before { content: '\e83c'; } /* '' */
 .icon-tag:before { content: '\e83d'; } /* '' */
 .icon-thumbs-up:before { content: '\e83e'; } /* '' */
