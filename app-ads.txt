@@ -10,9 +10,6 @@ openx.com, 557068541, DIRECT, 6a698e2ec38604c6
 # Rubicon (Magnite)
 rubiconproject.com, 22884, DIRECT, 0bfd66d529a55807
 
-# media.net
-media.net, 8CU60K4U7, DIRECT
-
 # Smaato open bidding (EB App-ads.txt)
 smaato.com,    1100052415  , DIRECT, 07bcf65f187117b4
 adcolony.com, 496220845654deec, RESELLER, 1ad675c9de6b5176
