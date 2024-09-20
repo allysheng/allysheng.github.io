@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
@@ -16,7 +17,7 @@
   <video:video>
     <video:player_loc>https://youtu.be/JwnmdsBQ9rY</video:player_loc>
     <video:title>HOP99 Trailer</video:title>
-    <video:description>HOP99 is a laid-back, content-packed platformer with plenty of levels to challenge you. Dodge left, dash right, and jump over obstacles as you collect characters and uncover every secret!
+    <video:description><![CDATA[HOP99 is a laid-back, content-packed platformer with plenty of levels to challenge you. Dodge left, dash right, and jump over obstacles as you collect characters and uncover every secret!]]>
 </video:description>
     <video:thumbnail_loc>https://i.ytimg.com/vi/JwnmdsBQ9rY/maxresdefault.jpg</video:thumbnail_loc>
     <video:publication_date>2024-07-12T01:28:17Z</video:publication_date>
@@ -26,6 +27,14 @@
   <loc>https://noice2d.com/ufo99/index.html</loc>
   <lastmod>2024-08-16T01:20:23+00:00</lastmod>
   <priority>0.80</priority>
+  <video:video>
+  <video:player_loc>https://youtu.be/oIGETIyzMkY</video:player_loc>
+  <video:title>UFO99 - Trailer</video:title>
+  <video:description><![CDATA[Android : https://play.google.com/store/apps/details?id=com.noice2d.ufo\n1-4P local WiFi multiplayer co-op flying arcade game.\nPerform your best flying, speeding and dodging skills with your favorite character!\n\nBlock monsters can be found floating around in this colorful universe, so watch out!Pick up big hammers and smash them. Keep challenging levels to get a higher rank and score!\n\nGiant bosses hide away in the Demon Key. Dodge their attacks, pick up magic items and fight back. Retrieve the long-lost UFO99 letter gems!]]>
+</video:description>
+  <video:thumbnail_loc>https://i.ytimg.com/vi/oIGETIyzMkY/maxresdefault.jpg</video:thumbnail_loc>
+  <video:publication_date>2022-05-02T08:46:28Z</video:publication_date>
+</video:video>
 </url>
 <url>
   <loc>https://noice2d.com/klee/index.html</loc>
