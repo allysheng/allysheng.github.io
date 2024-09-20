@@ -2,6 +2,7 @@
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
@@ -9,6 +10,21 @@
   <loc>https://noice2d.com/</loc>
   <lastmod>2024-08-16T01:20:22+00:00</lastmod>
   <priority>1.00</priority>
+  <image:image>
+      <image:loc>https://noice2d.com/assets/noice_logo_white.svg</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/assets/img/hop99_img.png</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/assets/img/main_cover4.png</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/assets/img/video_cover.png</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/assets/img/tako_images.png</image:loc>
+  </image:image>
 </url>
 <url>
   <loc>https://noice2d.com/hop99/index.html</loc>
@@ -40,11 +56,65 @@
   <loc>https://noice2d.com/klee/index.html</loc>
   <lastmod>2024-08-16T01:20:23+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+      <image:loc>https://noice2d.com/klee/images/klee_logo.png</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/images/badges/app_badges_appstore.png</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/images/badges/app_badges_playstore.png</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/klee/images/screenshots/klee_s01.gif</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/klee/images/screenshots/klee_s05.gif</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/klee/images/screenshots/klee_s06.gif</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/klee/images/screenshots/klee_s02.gif</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/klee/images/screenshots/klee_s03.gif</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/klee/images/screenshots/klee_s04.gif</image:loc>
+  </image:image>
 </url>
 <url>
   <loc>https://noice2d.com/takobubble/index.html</loc>
   <lastmod>2024-08-16T01:20:22+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+      <image:loc>https://noice2d.com/takobubble/images/takobbuble_logo_with_chinese.png</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/takobubble/images/screenshots/bomb.gif</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/takobubble/images/screenshots/slimes.gif</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/takobubble/images/screenshots/lightnings.gif</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/takobubble/images/screenshots/bats.gif</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/takobubble/images/screenshots/s01.png</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/takobubble/images/screenshots/s02.png</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/takobubble/images/screenshots/s03.png</image:loc>
+  </image:image>
+  <image:image>
+      <image:loc>https://noice2d.com/takobubble/images/screenshots/s04.png</image:loc>
+  </image:image>
 </url>
 <url>
   <loc>https://noice2d.com/privacy-policy.html</loc>
