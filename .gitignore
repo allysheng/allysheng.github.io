@@ -12,6 +12,7 @@ playwright-report/
 test-results/
 playwright/.cache/
 playwright-screenshots/
+playwright/.auth/
 
 # ================================
 # Logs
