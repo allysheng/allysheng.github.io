@@ -17,6 +17,7 @@ jobs:
     permissions:
       contents: read
       actions: read
+      pull-requests: write
     env:
       PLAYWRIGHT_BROWSERS_PATH: ~/.cache/ms-playwright
     
@@ -64,6 +65,13 @@ jobs:
       - name: Run Playwright tests
         run: pnpm test:pw
 
+      - name: Visual regression report
+        if: always()
+        uses: reg-viz/reg-actions@v2
+        with:
+          github-token: ${{ secrets.COMMENT_TOKEN }}
+          image-directory-path: playwright-screenshots
+
       - name: Upload test results
         if: always()
         uses: actions/upload-artifact@v4
@@ -73,4 +81,3 @@ jobs:
             playwright-screenshots/
             test-results/
           retention-days: 7
-
