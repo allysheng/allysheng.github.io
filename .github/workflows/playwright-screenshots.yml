@@ -4,21 +4,17 @@ on:
   pull_request:
     paths:
       - '**.html'
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - '**.html'
 
 jobs:
   screenshot-tests:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      actions: read
+      pull-requests: write
     env:
-      PLAYWRIGHT_BROWSERS_PATH: ~/.cache/ms-playwright
+      PLAYWRIGHT_ARTIFACT_NAME: playwright-screenshots
+      PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.pw-browsers
+      STORE_PATH: ${{ github.workspace }}/.pnpm-store
     
     steps:
       - name: Checkout code
@@ -42,7 +38,7 @@ jobs:
         with:
           path: ${{ env.STORE_PATH }}
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
+          restore-keys: | 
             ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
@@ -63,14 +59,13 @@ jobs:
 
       - name: Run Playwright tests
         run: pnpm test:pw
-
-      - name: Upload test results
+      
+      - name: Visual regression report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: reg-viz/reg-actions@v3
         with:
-          name: playwright-screenshots
-          path: |
-            playwright-screenshots/
-            test-results/
-          retention-days: 7
-
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          image-directory-path: ${{ github.workspace }}/${{ env.PLAYWRIGHT_ARTIFACT_NAME }}
+          artifact-name: ${{ env.PLAYWRIGHT_ARTIFACT_NAME }}
+          branch: test/${{ env.PLAYWRIGHT_ARTIFACT_NAME }}
+          
