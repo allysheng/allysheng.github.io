@@ -4,19 +4,30 @@ on:
   pull_request:
     paths:
       - '**.html'
+      - '.github/workflows/**'
+      - 'tests/**'
+      - 'playwright.config.ts'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
   push:
     branches:
       - main
       - master
     paths:
       - '**.html'
+      - '.github/workflows/**'
+      - 'tests/**'
+      - 'playwright.config.ts'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
 
 jobs:
   screenshot-tests:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       actions: read
+      pull-requests: write
     env:
       PLAYWRIGHT_BROWSERS_PATH: ~/.cache/ms-playwright
     
@@ -64,6 +75,15 @@ jobs:
       - name: Run Playwright tests
         run: pnpm test:pw
 
+      - name: Visual regression report
+        if: always()
+        uses: reg-viz/reg-actions@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          image-directory-path: playwright-screenshots
+          artifact-name: reg
+          branch: reg_actions
+
       - name: Upload test results
         if: always()
         uses: actions/upload-artifact@v4
@@ -73,4 +93,3 @@ jobs:
             playwright-screenshots/
             test-results/
           retention-days: 7
-
